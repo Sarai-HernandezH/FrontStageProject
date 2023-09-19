@@ -1,10 +1,11 @@
 import { Image, Text, View } from 'react-native'
 
-import { Header } from '../../components'
+import  Header  from '../../components/Header/Header'
 import React from 'react'
 import styles from './Details.style'
 
-const Details = ({ product }) => {
+const Details = ({ route }) => {
+    const { product } = route.params
     return (
         <View style={styles.container}>
             <Header title={'Details'} />

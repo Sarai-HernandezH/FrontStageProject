@@ -1,27 +1,28 @@
-import { FlatList, Text, TouchableOpacity, View } from 'react-native'
-import React, { useEffect, useState } from 'react'
-import allProducts from '../../data/products'
-import styles from './Products.style'
-import { Header, SearchInput } from '../../components'
+import { FlatList, Text, TouchableOpacity, View, Image } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import allProducts from '../../data/products';
+import styles from './Products.style';
+import {Header, SearchInput} from '../../components'
 
-const Products = ({ category, setProductSelected }) => {
-    const [arrProducts, setArrProducts] = useState([])
+const Products = ({ navigation, route }) => {
+    const [productList, setProductsList] = useState([])
     const [keyword, setKeyword] = useState('')
+    const {category} = route.params
 
     useEffect(() => {
         if (category) {
             const products = allProducts.filter(
-                product => product.category === category
+                (product) => product.category === category
             )
             const productsFiltered = products.filter(
                 product => product.title.includes(keyword)
             )
-            setArrProducts(productsFiltered)
+            setProductsList(productsFiltered)
         } else {
             const productsFiltered = allProducts.filter(
                 product => product.title.includes(keyword)
             )
-            setArrProducts(productsFiltered)
+            setProductsList(productsFiltered)
         }
     }, [category, keyword])
 
@@ -29,15 +30,19 @@ const Products = ({ category, setProductSelected }) => {
         <View style={styles.container}>
             <Header title={category} />
             <SearchInput onSearch={setKeyword} />
-            <View style={styles.listContainer}>
+            <View>
                 <FlatList
-                    data={arrProducts}
+                    data={productList}
                     renderItem={({ item }) => (
-                        <TouchableOpacity onPress={() => setProductSelected(item) }>
-                            <Text>{item.title}</Text>
+                        <TouchableOpacity 
+                            onPress={() =>
+                                navigation.navigate('Details', {product: item})   
+                            }>
+                            <Text style={styles.itemsList}>{item.title} <Image style={styles.image} source={{ uri: item.thumbnail }} /></Text>
                         </TouchableOpacity>)}
                     keyExtractor={item => item.id}
                 />
+                
             </View>
         </View>
     )

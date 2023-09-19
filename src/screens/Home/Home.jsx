@@ -1,26 +1,27 @@
-import { FlatList, View } from 'react-native'
-import { CategoryItem } from './components'
+import { FlatList, SafeAreaView, View } from 'react-native'
 import { Header } from '../../components'
+import { CategoryItem } from './components'
 import React from 'react'
 import dataCategories from '../../data/dataCategories'
 import styles from './Home.style'
 
-
-const Home = ({ setCategorySelected }) => {
+const Home = ({ navigation }) => {
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
             <Header title={'Categories'} />
-            <FlatList
-                data={dataCategories}
-                keyExtractor={category => category}
-                renderItem={({ item }) => (
-                    <CategoryItem
-                        category={item}
-                        setCategorySelected={setCategorySelected}
-                    />
-                )}
-            />
-        </View>
+            <View style={styles.listContainer}>
+                <FlatList
+                    data={dataCategories}
+                    keyExtractor={category => category}
+                    renderItem={({ item }) => (
+                        <CategoryItem
+                            category={item}
+                            navigation={navigation}
+                        />
+                    )}
+                />
+            </View>
+        </SafeAreaView>
     )
 }
 

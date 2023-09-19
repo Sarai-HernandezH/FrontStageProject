@@ -5,4 +5,7 @@ export default styles = StyleSheet.create({
         flex:1,
         backgroundColor: '#FFFFFF',
     },
+    listContainer:{
+        flex:1,
+    },
 });

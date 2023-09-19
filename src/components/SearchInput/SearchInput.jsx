@@ -1,7 +1,7 @@
 import { Pressable, TextInput, View } from 'react-native'
 import React, { useState } from 'react'
 import styles from './SearchInput.style'
-import AntDesign from '@expo/vector-icons/AntDesign'
+import Entypo from '@expo/vector-icons/Entypo'
 
 const SearchInput = ({ onSearch }) => {
     const [value, setValue] = useState('')
@@ -23,10 +23,10 @@ const SearchInput = ({ onSearch }) => {
                 placeholder="Search product"
             />
             <Pressable onPress={search}>
-                <AntDesign name='search1' size={25} color={'black'} />
+                <Entypo name='magnifying-glass' size={25} color={'black'} />
             </Pressable>
             <Pressable onPress={clearInput}>
-                <AntDesign name='closecircleo' size={25} color={'black'} />
+                <Entypo name='erase' size={25} color={'black'} />
             </Pressable>
         </View>
     )

@@ -7,7 +7,7 @@ export default styles = StyleSheet.create({
         marginVertical: 10,
         minWidth: 90,
         width: '85%',
-        height: 45,
+        height: 65,
         minHeight: 30,
         padding: 10,
         justifyContent: 'center',

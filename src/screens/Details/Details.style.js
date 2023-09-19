@@ -15,6 +15,7 @@ export default styles = StyleSheet.create({
         fontFamily: 'PoppinsSemiBoldItalic',
         fontSize: 15,
         marginHorizontal: 10,
+        
     },
     image: {
         justifyContent: 'center',

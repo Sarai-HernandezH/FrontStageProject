@@ -1,10 +1,17 @@
-import { Pressable ,Text } from 'react-native';
-import { Card } from '../../../../components';
-import styles from './CateogoryItem.style';
+import { Pressable, Text } from 'react-native'
+import React from 'react'
 
-const CategoryItem = ({ category, setCategorySelected }) => {
+import { Card } from '../../../../components' 
+import styles from './CategoryItem.style'
+
+const CategoryItem = ({ category, navigation }) => {
     return (
-        <Pressable onPress={() => setCategorySelected(category)}>
+        <Pressable
+            onPress={() => {
+                navigation.navigate('Products', {category})
+            }}
+            style={styles.container}
+        >
             <Card style={styles.cardContainer}>
                 <Text style={styles.text}>{category}</Text>
             </Card>
@@ -12,4 +19,4 @@ const CategoryItem = ({ category, setCategorySelected }) => {
     )
 }
 
-export default CategoryItem;
+export default CategoryItem

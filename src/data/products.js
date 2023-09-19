@@ -8,7 +8,7 @@ export default [
         rating: 4.69,
         stock: 80,
         brand: 'RCA Records.',
-        category: 'cds',
+        category: 'CDs',
         thumbnail: 'https://f.fcdn.app/imgs/2ec913/www.palaciodelamusica.com.uy/pmusuy/473f/webp/catalogo/RCA983735.2-RCA983735.2_1/2000-2000/cyrus-miley-plastic-hearts-cd-cyrus-miley-plastic-hearts-cd.jpg',
         images: [
             'https://media.vogue.es/photos/5fc5fd7ff19b6599598e328c/2:3/w_1920,c_limit/MC_AO_MICK_FINAL_Color_LR.jpg',
@@ -27,7 +27,7 @@ export default [
         rating: 4.44,
         stock: 34,
         brand: 'Columbia Syco.',
-        category: 'cds',
+        category: 'CDs',
         thumbnail: 'https://m.media-amazon.com/images/I/91XzfjRKLCL._SX425_.jpg',
         images: [
             'https://m.media-amazon.com/images/I/91kzoEqg7hL._SX425_.jpg',
@@ -45,7 +45,7 @@ export default [
         rating: 4.09,
         stock: 36,
         brand: 'Ariola Records.',
-        category: 'cds',
+        category: 'CDs',
         thumbnail: 'https://m.media-amazon.com/images/I/411CaSjlepL._SX425_.jpg',
         images: [
             'https://m.media-amazon.com/images/I/31OUmHo+gBL._SX425_.jpg,',
@@ -63,7 +63,7 @@ export default [
         rating: 4.8,
         stock: 120,
         brand: 'Big Machine Records.',
-        category: 'cds',
+        category: 'CDs',
         thumbnail: 'https://m.media-amazon.com/images/I/81Pm4vut3tL._SX355_.jpg',
         images: [
             'https://m.media-amazon.com/images/I/61+TFRitUqL._SX355_.jpg',
@@ -81,7 +81,7 @@ export default [
         rating: 5,
         stock: 150,
         brand: 'Columbia Records.',
-        category: 'cds',
+        category: 'CDs',
         thumbnail: 'https://m.media-amazon.com/images/I/61ur3nQ+-mL._SY355_.jpg',
         images: [
             'https://m.media-amazon.com/images/I/61P9FF6tJwL._SY355_.jpg',
@@ -99,7 +99,7 @@ export default [
         rating: 4.57,
         stock: 83,
         brand: 'Island, Interscope.',
-        category: 'vinyls',
+        category: 'Vinyls',
         thumbnail: 'https://universalmusiconline.es/cdn/shop/products/SongsOfSurrender-purpura_720x.png?v=1677691243',
         images: [
             'https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202301/24/00105112697130____1__1200x1200.jpg',
@@ -117,7 +117,7 @@ export default [
         rating: 4.25,
         stock: 50,
         brand: 'Capitol.',
-        category: 'vinyls',
+        category: 'Vinyls',
         thumbnail: 'https://universalmusiconline.es/cdn/shop/products/samtrans_720x.png?v=1675330438',
         images: [
             'https://universalmusiconline.es/cdn/shop/products/D2CLP_b111a748-221c-4d07-8ac7-4649a4d4281c_720x.png?v=1666025127',
@@ -135,7 +135,7 @@ export default [
         rating: 4.43,
         stock: 68,
         brand: 'Royal Albert Hall.',
-        category: 'vinyls',
+        category: 'Vinyls',
         thumbnail: 'https://www.blackvinylrecordsspain.com/cdn/shop/products/doubleVinyl.webp?v=1680851272&width=823',
         images: [
             'https://blacksheeprco.com/cdn/shop/products/5sosfeelingoffallingupwardcover_879x879.webp?v=1680819593',
@@ -153,7 +153,7 @@ export default [
         rating: 4.9,
         stock: 96,
         brand: 'Warner Bros.',
-        category: 'vinyls',
+        category: 'Vinyls',
         thumbnail: 'https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/201605/30/00105112136667____1__640x640.jpg',
         images: [
             'https://m.media-amazon.com/images/I/61FRYInFUmL._SX522_.jpg',
@@ -170,7 +170,7 @@ export default [
         rating: 4.43,
         stock: 50,
         brand: 'Capitol Records.',
-        category: 'vinyls',
+        category: 'Vinyls',
         thumbnail: 'https://universalmusiconline.es/cdn/shop/products/03.NiallHoran_TheShow_Box_Vinyl_720x.png?v=1676478275',
         images: [
             'https://universalmusiconline.es/cdn/shop/products/04.NiallHoran_TheShow_Box_Vinyl_720x.png?v=1676478275',
@@ -188,7 +188,7 @@ export default [
         rating: 4.26,
         stock: 65,
         brand: 'Ibanez.',
-        category: 'instruments',
+        category: 'Instruments',
         thumbnail: 'https://f.fcdn.app/imgs/bf26f2/www.palaciodelamusica.com.uy/pmusuy/b659/webp/catalogo/T0D10-T0D10_1/2000-2000/guitarra-electrica-ibanez-t0d10-tim-henson-guitarra-electrica-ibanez-t0d10-tim-henson.jpg',
         images: [
             'https://f.fcdn.app/imgs/dcf190/www.palaciodelamusica.com.uy/pmusuy/41fb/webp/catalogo/T0D10-T0D10_2/2000-2000/guitarra-electrica-ibanez-t0d10-tim-henson-guitarra-electrica-ibanez-t0d10-tim-henson.jpg',
@@ -206,7 +206,7 @@ export default [
         rating: 4,
         stock: 52,
         brand: 'Epiphone.',
-        category: 'instruments',
+        category: 'Instruments',
         thumbnail: 'https://f.fcdn.app/imgs/0cad78/www.palaciodelamusica.com.uy/pmusuy/8910/webp/catalogo/EBTVTSNH1-EBTVTSNH1_1/2000-2000/bajo-electrico-epiphone-thunderbird-60s-sunburst-bajo-electrico-epiphone-thunderbird-60s-sunburst.jpg',
         images: [
             'https://www.fivestarguitars.com/cdn/shop/products/DSC_0770LEAD_b4c4678a-7a71-464b-8612-28e83f6f0a85_800x.jpg?v=1669769439',
@@ -223,7 +223,7 @@ export default [
         rating: 4.59,
         stock: 61,
         brand: 'Ringway.',
-        category: 'instruments',
+        category: 'Instruments',
         thumbnail: 'https://f.fcdn.app/imgs/1311f4/www.palaciodelamusica.com.uy/pmusuy/957c/webp/catalogo/RP120ROSEWOOD-RP120ROSEWOOD_1/2000-2000/piano-digital-ringway-rp120-rosewood-c-banqueta-piano-digital-ringway-rp120-rosewood-c-banqueta.jpg',
         images: [
             'https://www.heavenimagenes.com/heavencommerce/c3b5dd47-2974-4340-bfd1-245d4bd9ff1c/images/v2/RINGWAY/1704151840063514_01_medium.jpg',
@@ -239,7 +239,7 @@ export default [
         rating: 4.21,
         stock: 114,
         brand: 'Mapex.',
-        category: 'instruments',
+        category: 'Instruments',
         thumbnail: 'https://f.fcdn.app/imgs/6bd382/www.palaciodelamusica.com.uy/pmusuy/475d/webp/catalogo/VE5294FTCVX-VE5294FTCVX_1/460x460/bateria-mapex-venus-ve5294ftcvx-5pcs-c-hardware-hp8005-bateria-mapex-venus-ve5294ftcvx-5pcs-c-hardware-hp8005.jpg',
         images: [
             'https://f.fcdn.app/imgs/6bd382/www.palaciodelamusica.com.uy/pmusuy/475d/webp/catalogo/VE5294FTCVX-VE5294FTCVX_1/460x460/bateria-mapex-venus-ve5294ftcvx-5pcs-c-hardware-hp8005-bateria-mapex-venus-ve5294ftcvx-5pcs-c-hardware-hp8005.jpg',
@@ -254,7 +254,7 @@ export default [
         rating: 4.7,
         stock: 105,
         brand: 'Jupiter.',
-        category: 'instruments',
+        category: 'Instruments',
         thumbnail: 'https://f.fcdn.app/imgs/5b47fb/www.palaciodelamusica.com.uy/pmusuy/2b52/webp/catalogo/JAS500A-JAS500A_1/2000-2000/saxo-alto-jupiter-jas500a-saxo-alto-jupiter-jas500a.jpg',
         images: [
             'https://f.fcdn.app/imgs/267d09/www.palaciodelamusica.com.uy/pmusuy/528f/webp/catalogo/JAS500A-JAS500A_2/2000-2000/saxo-alto-jupiter-jas500a-saxo-alto-jupiter-jas500a.jpg',
@@ -270,7 +270,7 @@ export default [
         rating: 4.83,
         stock: 110,
         brand: "Numark.",
-        category: 'dj',
+        category: 'DJ',
         thumbnail: 'https://www.stars-music.es/medias/numark/cropped-party-mix-2.webp',
         images: [
             'https://www.stars-music.es/medias/numark/party-mix-2-hd-4-177963.webp',
@@ -288,7 +288,7 @@ export default [
         rating: 4.52,
         stock: 78,
         brand: 'Pioneer.',
-        category: 'dj',
+        category: 'DJ',
         thumbnail: 'https://f.fcdn.app/imgs/0490f8/www.palaciodelamusica.com.uy/pmusuy/6949/webp/catalogo/DDJ800-DDJ800_1/2000-2000/controlador-dj-pioneer-ddj800-controlador-dj-pioneer-ddj800.jpg',
         images: [
             'https://f.fcdn.app/imgs/4fcdeb/www.palaciodelamusica.com.uy/pmusuy/5cab/webp/catalogo/DDJ800-DDJ800_2/2000-2000/controlador-dj-pioneer-ddj800-controlador-dj-pioneer-ddj800.jpg',
@@ -307,7 +307,7 @@ export default [
         rating: 4.56,
         stock: 88,
         brand: 'Numark.',
-        category: 'dj',
+        category: 'DJ',
         thumbnail: 'https://f.fcdn.app/imgs/db0bf6/www.palaciodelamusica.com.uy/pmusuy/7e0e/webp/catalogo/DJ2GOTOUCH-DJ2GOTOUCH_1/2000-2000/controlador-dj-numark-dj2go-touch-2-nueva-version-controlador-dj-numark-dj2go-touch-2-nueva-version.jpg',
         images: [
             'https://f.fcdn.app/imgs/a63161/www.palaciodelamusica.com.uy/pmusuy/78e0/webp/catalogo/DJ2GOTOUCH-DJ2GOTOUCH_4/2000-2000/controlador-dj-numark-dj2go-touch-2-nueva-version-controlador-dj-numark-dj2go-touch-2-nueva-version.jpg',
@@ -325,7 +325,7 @@ export default [
         rating: 4.42,
         stock: 24,
         brand: 'Pioneer.',
-        category: 'dj',
+        category: 'DJ',
         thumbnail: 'https://www.pioneerdj.com/-/media/pioneerdj/images/products/player/cdj-3000/white/cdj-3000-w-angle-hero.png',
         images: [
             'https://www.pioneerdj.com/-/media/pioneerdj/images/products/player/cdj-3000/white/cdj-3000-w-top-hero.png',
@@ -343,7 +343,7 @@ export default [
         rating: 4.06,
         stock: 140,
         brand: 'Pioneer.',
-        category: 'dj',
+        category: 'DJ',
         thumbnail: 'https://www.pioneerdj.com/-/media/pioneerdj/images/products/all-in-one-system/xdj-rr/xdj-rr-main-v2.png?h=1316&w=1792&hash=F0D72BF6EE346B2A73F7C707E49FA4EC',
         images: [
             'https://www.pioneerdj.com/-/media/pioneerdj/images/products/all-in-one-system/xdj-rr/xdj-rr-angle.png?h=1316&w=1792&hash=2EBAA000ECC9FA4F16F4FAF68652473F',
@@ -361,7 +361,7 @@ export default [
         rating: 4.44,
         stock: 133,
         brand: 'Pls.',
-        category: 'lights',
+        category: 'Lights',
         thumbnail: 'https://f.fcdn.app/imgs/1b7204/www.palaciodelamusica.com.uy/pmusuy/1f78/webp/catalogo/SL103S-SL103S_1/2000-2000/blinder-led-pls-sl103s-2-x-blinder-led-pls-sl103s-2-x.jpg',
         images: [
             'https://f.fcdn.app/imgs/b39cf5/www.palaciodelamusica.com.uy/pmusuy/a5dc/webp/catalogo/SL103S-SL103S_3/460x460/blinder-led-pls-sl103s-2-x-blinder-led-pls-sl103s-2-x.jpg',
@@ -378,7 +378,7 @@ export default [
         rating: 4.57,
         stock: 146,
         brand: 'Big Dipper.',
-        category: 'lights',
+        category: 'Lights',
         thumbnail: 'https://f.fcdn.app/imgs/453c18/www.palaciodelamusica.com.uy/pmusuy/6a5e/webp/catalogo/LPC006-LPC006_1/2000-2000/tacho-led-big-dipper-lpc006-tacho-led-big-dipper-lpc006.jpg',
         images: [
             'https://f.fcdn.app/imgs/453c18/www.palaciodelamusica.com.uy/pmusuy/6a5e/webp/catalogo/LPC006-LPC006_1/2000-2000/tacho-led-big-dipper-lpc006-tacho-led-big-dipper-lpc006.jpg',
@@ -395,7 +395,7 @@ export default [
         rating: 4.85,
         stock: 26,
         brand: 'Pls.',
-        category: 'lights',
+        category: 'Lights',
         thumbnail: 'https://f.fcdn.app/imgs/c3e13b/www.palaciodelamusica.com.uy/pmusuy/b88f/webp/catalogo/PL14C-PL14C_2/460x460/cabeza-movil-pls-pl14c-beam-wash-con-zoom-cabeza-movil-pls-pl14c-beam-wash-con-zoom.jpg',
         images: [
             'https://f.fcdn.app/imgs/f00467/www.palaciodelamusica.com.uy/pmusuy/18b3/webp/catalogo/PL14C-PL14C_1/2000-2000/cabeza-movil-pls-pl14c-beam-wash-con-zoom-cabeza-movil-pls-pl14c-beam-wash-con-zoom.jpg',
@@ -413,7 +413,7 @@ export default [
         rating: 4.94,
         stock: 113,
         brand: 'PR.',
-        category: 'lights',
+        category: 'Lights',
         thumbnail: 'https://f.fcdn.app/imgs/adb803/www.palaciodelamusica.com.uy/pmusuy/746d/webp/catalogo/JNR8146A-JNR8146A_1/2000-2000/blinder-led-pr-lighting-junior-8146a-4100s-ww-blinder-led-pr-lighting-junior-8146a-4100s-ww.jpg',
         images: [
             'https://f.fcdn.app/imgs/57e1bd/www.palaciodelamusica.com.uy/pmusuy/fa3b/webp/catalogo/JNR8146A-JNR8146A_2/460x460/blinder-led-pr-lighting-junior-8146a-4100s-ww-blinder-led-pr-lighting-junior-8146a-4100s-ww.jpg',
@@ -429,7 +429,7 @@ export default [
         rating: 4.87,
         stock: 47,
         brand: 'Pls.',
-        category: 'lights',
+        category: 'Lights',
         thumbnail: 'https://f.fcdn.app/imgs/d9bf5d/www.palaciodelamusica.com.uy/pmusuy/7004/webp/catalogo/PL103A-PL103A_1/2000-2000/tacho-led-pls-a-bateria-pl103a-truss-rgbw-3x4w-tacho-led-pls-a-bateria-pl103a-truss-rgbw-3x4w.jpg',
         images: [
             'https://f.fcdn.app/imgs/3e291c/www.palaciodelamusica.com.uy/pmusuy/0d1c/webp/catalogo/PL103A-PL103A_2/460x460/tacho-led-pls-a-bateria-pl103a-truss-rgbw-3x4w-tacho-led-pls-a-bateria-pl103a-truss-rgbw-3x4w.jpg',
@@ -447,7 +447,7 @@ export default [
         rating: 4.08,
         stock: 131,
         brand: 'Lexsen.',
-        category: 'speakers',
+        category: 'Speakers',
         thumbnail: 'https://f.fcdn.app/imgs/895336/www.palaciodelamusica.com.uy/pmusuy/7750/webp/catalogo/WS0104BLK-WS0104BLK_1/2000-2000/caja-pasiva-para-instalacion-lexsen-ws0104blk-negro-caja-pasiva-para-instalacion-lexsen-ws0104blk-negro.jpg',
         images: [
             'https://f.fcdn.app/imgs/9a2783/www.palaciodelamusica.com.uy/pmusuy/c11b/webp/catalogo/WS0104BLK-WS0104BLK_2/2000-2000/caja-pasiva-para-instalacion-lexsen-ws0104blk-negro-caja-pasiva-para-instalacion-lexsen-ws0104blk-negro.jpg',
@@ -464,7 +464,7 @@ export default [
         rating: 4.41,
         stock: 17,
         brand: 'JBL.',
-        category: 'speakers',
+        category: 'Speakers',
         thumbnail: 'https://f.fcdn.app/imgs/3b96e2/www.palaciodelamusica.com.uy/pmusuy/4683/webp/catalogo/PRX815W-PRX815W_1/2000-2000/caja-acustica-activa-jbl-prx815w-caja-acustica-activa-jbl-prx815w.jpg',
         images: [
             'https://f.fcdn.app/imgs/94b262/www.palaciodelamusica.com.uy/pmusuy/c8a4/webp/catalogo/PRX815W-PRX815W_2/2000-2000/caja-acustica-activa-jbl-prx815w-caja-acustica-activa-jbl-prx815w.jpg',
@@ -482,7 +482,7 @@ export default [
         rating: 4.82,
         stock: 54,
         brand: 'Db Technologies.',
-        category: 'speakers',
+        category: 'Speakers',
         thumbnail: 'https://f.fcdn.app/imgs/c7f4ab/www.palaciodelamusica.com.uy/pmusuy/cc49/webp/catalogo/BHYPE8-BHYPE8_1/2000-2000/caja-activa-db-technologies-bhype8-caja-activa-db-technologies-bhype8.jpg',
         images: [
             'https://f.fcdn.app/imgs/2617db/www.palaciodelamusica.com.uy/pmusuy/40da/webp/catalogo/BHYPE8-BHYPE8_2/2000-2000/caja-activa-db-technologies-bhype8-caja-activa-db-technologies-bhype8.jpg',
@@ -498,7 +498,7 @@ export default [
         rating: 4.44,
         stock: 7,
         brand: 'JBL.',
-        category: 'speakers',
+        category: 'Speakers',
         thumbnail: 'https://f.fcdn.app/imgs/4d86e7/www.palaciodelamusica.com.uy/pmusuy/169f/webp/catalogo/PRX825W-PRX825W_1/2000-2000/caja-acustica-activa-jbl-prx825w-caja-acustica-activa-jbl-prx825w.jpg',
         images: [
             'https://f.fcdn.app/imgs/bc9b8e/www.palaciodelamusica.com.uy/pmusuy/f483/webp/catalogo/PRX825W-PRX825W_2/460x460/caja-acustica-activa-jbl-prx825w-caja-acustica-activa-jbl-prx825w.jpg',
@@ -516,7 +516,7 @@ export default [
         rating: 4.92,
         stock: 54,
         brand: 'Behringer.',
-        category: 'speakers',
+        category: 'Speakers',
         thumbnail: 'https://f.fcdn.app/imgs/a495ae/www.palaciodelamusica.com.uy/pmusuy/e682/webp/catalogo/DR18SUB-DR18SUB_1/2000-2000/caja-activa-behringer-dr18sub-18-subwoofer-caja-activa-behringer-dr18sub-18-subwoofer.jpg',
         images: [
             'https://f.fcdn.app/imgs/47f419/www.palaciodelamusica.com.uy/pmusuy/8653/webp/catalogo/DR18SUB-DR18SUB_2/460x460/caja-activa-behringer-dr18sub-18-subwoofer-caja-activa-behringer-dr18sub-18-subwoofer.jpg',
@@ -534,7 +534,7 @@ export default [
         rating: 4.16,
         stock: 140,
         brand: 'AKG.',
-        category: 'microphone',
+        category: 'Microphones',
         thumbnail: 'https://f.fcdn.app/imgs/eaba62/www.palaciodelamusica.com.uy/pmusuy/e460/webp/catalogo/C44USB-C44USB_1/2000-2000/microfono-condensador-akg-lyra-c44-usb-microfono-condensador-akg-lyra-c44-usb.jpg',
         images: [
             'https://f.fcdn.app/imgs/c44008/www.palaciodelamusica.com.uy/pmusuy/ff01/webp/catalogo/C44USB-C44USB_2/2000-2000/microfono-condensador-akg-lyra-c44-usb-microfono-condensador-akg-lyra-c44-usb.jpg',
@@ -550,7 +550,7 @@ export default [
         rating: 4.74,
         stock: 30,
         brand: 'Apogee.',
-        category: 'microphone',
+        category: 'Microphones',
         thumbnail: 'https://f.fcdn.app/imgs/261a24/www.palaciodelamusica.com.uy/pmusuy/a069/webp/catalogo/BM900-BM900_1/2000-2000/microfono-set-apogee-bm900-usb-xlr-3-5mm-c-soporte-y-antipop-microfono-set-apogee-bm900-usb-xlr-3-5mm-c-soporte-y-antipop.jpg',
         images: [
             'https://f.fcdn.app/imgs/5c490c/www.palaciodelamusica.com.uy/pmusuy/7f5f/webp/catalogo/BM900-BM900_2/2000-2000/microfono-set-apogee-bm900-usb-xlr-3-5mm-c-soporte-y-antipop-microfono-set-apogee-bm900-usb-xlr-3-5mm-c-soporte-y-antipop.jpg',
@@ -568,7 +568,7 @@ export default [
         rating: 4.31,
         stock: 50,
         brand: 'RODE.',
-        category: 'microphone',
+        category: 'Microphones',
         thumbnail: 'https://f.fcdn.app/imgs/2d6528/www.palaciodelamusica.com.uy/pmusuy/bde8/webp/catalogo/NT2A-NT2A_1/2000-2000/microfono-rode-nt2a-condenser-microfono-rode-nt2a-condenser.jpg',
         images: [
             'https://f.fcdn.app/imgs/112430/www.palaciodelamusica.com.uy/pmusuy/75f0/webp/catalogo/NT2A-NT2A_2/460x460/microfono-rode-nt2a-condenser-microfono-rode-nt2a-condenser.jpg',
@@ -586,7 +586,7 @@ export default [
         rating: 4.01,
         stock: 136,
         brand: 'Apogee.',
-        category: 'microphone',
+        category: 'Microphones',
         thumbnail: 'https://f.fcdn.app/imgs/203aa3/www.palaciodelamusica.com.uy/pmusuy/d17f/webp/catalogo/CM117S-CM117S_1/2000-2000/microfono-condensador-apogee-cm117s-para-celular-microfono-condensador-apogee-cm117s-para-celular.jpg',
         images: [
             'https://f.fcdn.app/imgs/1a3e9a/www.palaciodelamusica.com.uy/pmusuy/732d/webp/catalogo/CM117S-CM117S_2/2000-2000/microfono-condensador-apogee-cm117s-para-celular-microfono-condensador-apogee-cm117s-para-celular.jpg',
@@ -604,7 +604,7 @@ export default [
         rating: 4.06,
         stock: 68,
         brand: 'Apogee.',
-        category: 'microphone',
+        category: 'Microphones',
         thumbnail: 'https://f.fcdn.app/imgs/219e85/www.palaciodelamusica.com.uy/pmusuy/d08b/webp/catalogo/U4-U4_1/2000-2000/microfono-inalambrico-apogee-u4-uhf-microfono-inalambrico-apogee-u4-uhf.jpg',
         images: [
             'https://f.fcdn.app/imgs/f9bd20/www.palaciodelamusica.com.uy/pmusuy/0186/webp/catalogo/U4-U4_2/460x460/microfono-inalambrico-apogee-u4-uhf-microfono-inalambrico-apogee-u4-uhf.jpg',
@@ -622,7 +622,7 @@ export default [
         rating: 4.26,
         stock: 39,
         brand: 'KRK.',
-        category: 'home studio',
+        category: 'Home Studio',
         thumbnail: 'https://f.fcdn.app/imgs/d67cc6/www.palaciodelamusica.com.uy/pmusuy/2543/webp/catalogo/RP7WHT-RP7WHT_1/2000-2000/monitor-de-estudio-krk-rp7-rokit-blanco-7-c-u-monitor-de-estudio-krk-rp7-rokit-blanco-7-c-u.jpg',
         images: [
             'https://f.fcdn.app/imgs/675bb3/www.palaciodelamusica.com.uy/pmusuy/837d/webp/catalogo/RP7WHT-RP7WHT_2/2000-2000/monitor-de-estudio-krk-rp7-rokit-blanco-7-c-u-monitor-de-estudio-krk-rp7-rokit-blanco-7-c-u.jpg',
@@ -641,7 +641,7 @@ export default [
         rating: 4.52,
         stock: 107,
         brand: 'TANNOY.',
-        category: 'home studio',
+        category: 'Home Studio',
         thumbnail: 'https://f.fcdn.app/imgs/413953/www.palaciodelamusica.com.uy/pmusuy/04c3/webp/catalogo/C4701-C4701_1/2000-2000/monitor-de-estudio-tannoy-reveal502-5-c-u-monitor-de-estudio-tannoy-reveal502-5-c-u.jpg',
         images: [
             'https://f.fcdn.app/imgs/d36335/www.palaciodelamusica.com.uy/pmusuy/cd59/webp/catalogo/C4701-C4701_2/460x460/monitor-de-estudio-tannoy-reveal502-5-c-u-monitor-de-estudio-tannoy-reveal502-5-c-u.jpg',
@@ -657,7 +657,7 @@ export default [
         rating: 4.8,
         stock: 20,
         brand: 'JBL.',
-        category: 'home studio',
+        category: 'Home Studio',
         thumbnail: 'https://f.fcdn.app/imgs/f3c0a5/www.palaciodelamusica.com.uy/pmusuy/00be/webp/catalogo/C2PS-C2PS_1/2000-2000/caja-acustica-jbl-control-2p-activa-par-caja-acustica-jbl-control-2p-activa-par.jpg',
         images: [
             'https://f.fcdn.app/imgs/bee5cc/www.palaciodelamusica.com.uy/pmusuy/769a/webp/catalogo/C2PS-C2PS_2/2000-2000/caja-acustica-jbl-control-2p-activa-par-caja-acustica-jbl-control-2p-activa-par.jpg',
@@ -673,7 +673,7 @@ export default [
         rating: 4.55,
         stock: 55,
         brand: 'KRK.',
-        category: 'home studio',
+        category: 'Home Studio',
         thumbnail: 'https://f.fcdn.app/imgs/b67c5a/www.palaciodelamusica.com.uy/pmusuy/a6d4/webp/catalogo/S10-S10_1/460x460/monitor-de-estudio-krk-s10-10-subwoofer-monitor-de-estudio-krk-s10-10-subwoofer.jpg',
         images: [
             'https://f.fcdn.app/imgs/938919/www.palaciodelamusica.com.uy/pmusuy/81a7/webp/catalogo/S10-S10_3/2000-2000/monitor-de-estudio-krk-s10-10-subwoofer-monitor-de-estudio-krk-s10-10-subwoofer.jpg',
@@ -690,7 +690,7 @@ export default [
         rating: 4.91,
         stock: 84,
         brand: 'ADAM AUDIO.',
-        category: 'home studio',
+        category: 'Home Studio',
         thumbnail: 'https://f.fcdn.app/imgs/1b2c5c/www.palaciodelamusica.com.uy/pmusuy/6dcc/webp/catalogo/T10S-T10S_1/2000-2000/monitor-de-estudio-adam-t10s-10-subwoofer-monitor-de-estudio-adam-t10s-10-subwoofer.jpg',
         images: [
             'https://f.fcdn.app/imgs/1d2894/www.palaciodelamusica.com.uy/pmusuy/8d89/webp/catalogo/T10S-T10S_2/2000-2000/monitor-de-estudio-adam-t10s-10-subwoofer-monitor-de-estudio-adam-t10s-10-subwoofer.jpg',
@@ -707,7 +707,7 @@ export default [
         rating: 4.65,
         stock: 21,
         brand: 'AKG.',
-        category: 'headsets',
+        category: 'Headsets',
         thumbnail: 'https://f.fcdn.app/imgs/404360/www.palaciodelamusica.com.uy/pmusuy/4b91/webp/catalogo/K52-K52_1/2000-2000/auriculares-akg-k52-negros-auriculares-akg-k52-negros.jpg',
         images: [
             'https://f.fcdn.app/imgs/e4cefb/www.palaciodelamusica.com.uy/pmusuy/6145/webp/catalogo/K52-K52_2/2000-2000/auriculares-akg-k52-negros-auriculares-akg-k52-negros.jpg',
@@ -723,7 +723,7 @@ export default [
         rating: 4.05,
         stock: 148,
         brand: 'AKG.',
-        category: 'headsets',
+        category: 'Headsets',
         thumbnail: 'https://f.fcdn.app/imgs/764f25/www.palaciodelamusica.com.uy/pmusuy/e6a7/webp/catalogo/K92-K92_1/2000-2000/auriculares-de-estudio-akg-k92-dorados-auriculares-de-estudio-akg-k92-dorados.jpg',
         images: [
             'https://f.fcdn.app/imgs/770631/www.palaciodelamusica.com.uy/pmusuy/4acd/webp/catalogo/K92-K92_3/2000-2000/auriculares-de-estudio-akg-k92-dorados-auriculares-de-estudio-akg-k92-dorados.jpg',
@@ -740,7 +740,7 @@ export default [
         rating: 4.31,
         stock: 150,
         brand: 'Sennheiser.',
-        category: 'headsets',
+        category: 'Headsets',
         thumbnail: 'https://f.fcdn.app/imgs/d29025/www.palaciodelamusica.com.uy/pmusuy/fb75/webp/catalogo/507447-507447_1/2000-2000/auriculares-inalambricos-sennheiser-cx6-00bt-negros-auriculares-inalambricos-sennheiser-cx6-00bt-negros.jpg',
         images: [
             'https://f.fcdn.app/imgs/674521/www.palaciodelamusica.com.uy/pmusuy/31ed/webp/catalogo/507447-507447_2/460x460/auriculares-inalambricos-sennheiser-cx6-00bt-negros-auriculares-inalambricos-sennheiser-cx6-00bt-negros.jpg',
@@ -758,7 +758,7 @@ export default [
         rating: 4.03,
         stock: 2,
         brand: 'Pioneer.',
-        category: 'headsets',
+        category: 'Headsets',
         thumbnail: 'https://f.fcdn.app/imgs/d8fc9d/www.palaciodelamusica.com.uy/pmusuy/7f0a/webp/catalogo/HDJX5S-HDJX5S_1/460x460/auriculares-pioneer-hdjx5-silver-auriculares-pioneer-hdjx5-silver.jpg',
         images: [
             'https://f.fcdn.app/imgs/5eae98/www.palaciodelamusica.com.uy/pmusuy/0cc6/webp/catalogo/HDJX5S-HDJX5S_2/2000-2000/auriculares-pioneer-hdjx5-silver-auriculares-pioneer-hdjx5-silver.jpg',
@@ -776,7 +776,7 @@ export default [
         rating: 4.67,
         stock: 96,
         brand: 'audio-technica.',
-        category: 'headsets',
+        category: 'Headsets',
         thumbnail: 'https://f.fcdn.app/imgs/027497/www.palaciodelamusica.com.uy/pmusuy/49e1/webp/catalogo/ATHG1-ATHG1_1/2000-2000/auriculares-gamer-audio-technica-athg1-negros-auriculares-gamer-audio-technica-athg1-negros.jpg',
         images: [
             'https://f.fcdn.app/imgs/77282e/www.palaciodelamusica.com.uy/pmusuy/98c3/webp/catalogo/ATHG1-ATHG1_2/460x460/auriculares-gamer-audio-technica-athg1-negros-auriculares-gamer-audio-technica-athg1-negros.jpg',
@@ -794,7 +794,7 @@ export default [
         rating: 4.14,
         stock: 72,
         brand: 'YAMAHA.',
-        category: 'home theater',
+        category: 'Home Theater',
         thumbnail: 'https://f.fcdn.app/imgs/700db7/www.palaciodelamusica.com.uy/pmusuy/29eb/webp/catalogo/RXV4A-RXV4A_1/2000-2000/receiver-yamaha-rxv4a-receiver-yamaha-rxv4a.jpg',
         images: [
             'https://f.fcdn.app/imgs/f0f2a0/www.palaciodelamusica.com.uy/pmusuy/7023/webp/catalogo/RXV4A-RXV4A_3/2000-2000/receiver-yamaha-rxv4a-receiver-yamaha-rxv4a.jpg',
@@ -811,7 +811,7 @@ export default [
         rating: 4.19,
         stock: 50,
         brand: 'YAMAHA.',
-        category: 'home theater',
+        category: 'Home Theater',
         thumbnail: 'https://f.fcdn.app/imgs/14739a/www.palaciodelamusica.com.uy/pmusuy/1ead/webp/catalogo/WXA50-WXA50_1/2000-2000/amplificador-wifi-yamaha-caja-acustica-amplificador-wifi-yamaha-caja-acustica.jpg',
         images: [
             'https://f.fcdn.app/imgs/f24a2d/www.palaciodelamusica.com.uy/pmusuy/a1d3/webp/catalogo/WXA50-WXA50_2/2000-2000/amplificador-wifi-yamaha-caja-acustica-amplificador-wifi-yamaha-caja-acustica.jpg',
@@ -828,7 +828,7 @@ export default [
         rating: 4.02,
         stock: 25,
         brand: 'YAMAHA.',
-        category: 'home theater',
+        category: 'Home Theater',
         thumbnail: 'https://f.fcdn.app/imgs/c7c2df/www.palaciodelamusica.com.uy/pmusuy/a13a/webp/catalogo/AS301B-AS301B_1/2000-2000/amplificador-yamaha-as301b-amplificador-yamaha-as301b.jpg',
         images: [
             'https://f.fcdn.app/imgs/d93ede/www.palaciodelamusica.com.uy/pmusuy/2fac/webp/catalogo/AS301B-AS301B_2/460x460/amplificador-yamaha-as301b-amplificador-yamaha-as301b.jpg',
@@ -844,7 +844,7 @@ export default [
         rating: 4.72,
         stock: 107,
         brand: 'Polk.',
-        category: 'home theater',
+        category: 'Home Theater',
         thumbnail: 'https://f.fcdn.app/imgs/d14eee/www.palaciodelamusica.com.uy/pmusuy/7d76/webp/catalogo/AM1665C-AM1665C_1/2000-2000/home-theatre-polk-tl1600-tower-system-black-home-theatre-polk-tl1600-tower-system-black.jpg',
         images: [
             'https://f.fcdn.app/imgs/d14eee/www.palaciodelamusica.com.uy/pmusuy/7d76/webp/catalogo/AM1665C-AM1665C_1/2000-2000/home-theatre-polk-tl1600-tower-system-black-home-theatre-polk-tl1600-tower-system-black.jpg',
@@ -859,7 +859,7 @@ export default [
         rating: 4.33,
         stock: 46,
         brand: 'TOSHIBA.',
-        category: 'home theater',
+        category: 'Home Theater',
         thumbnail: 'https://f.fcdn.app/imgs/b64c0a/www.palaciodelamusica.com.uy/pmusuy/2972/webp/catalogo/WSB600-WSB600_1/2000-2000/barra-de-sonido-toshiba-wsb600-barra-de-sonido-toshiba-wsb600.jpg',
         images: [
             'https://f.fcdn.app/imgs/b64c0a/www.palaciodelamusica.com.uy/pmusuy/2972/webp/catalogo/WSB600-WSB600_1/2000-2000/barra-de-sonido-toshiba-wsb600-barra-de-sonido-toshiba-wsb600.jpg',
@@ -874,7 +874,7 @@ export default [
         rating: 4.26,
         stock: 132,
         brand: 'Soundking.',
-        category: 'cables',
+        category: 'Cables',
         thumbnail: 'https://f.fcdn.app/imgs/30173b/www.palaciodelamusica.com.uy/pmusuy/3f5b/webp/catalogo/BB3063-BB3063_1/2000-2000/cable-balanceado-soundking-bb306-1-4-a-1-4-3-mts-cable-balanceado-soundking-bb306-1-4-a-1-4-3-mts.jpg',
         images: [
             'https://f.fcdn.app/imgs/30173b/www.palaciodelamusica.com.uy/pmusuy/3f5b/webp/catalogo/BB3063-BB3063_1/2000-2000/cable-balanceado-soundking-bb306-1-4-a-1-4-3-mts-cable-balanceado-soundking-bb306-1-4-a-1-4-3-mts.jpg',
@@ -889,7 +889,7 @@ export default [
         rating: 4.52,
         stock: 128,
         brand: 'Proel.',
-        category: 'cables',
+        category: 'Cables',
         thumbnail: 'https://f.fcdn.app/imgs/7cb2de/www.palaciodelamusica.com.uy/pmusuy/cd21/webp/catalogo/BULK200LU5-BULK200LU5_1/460x460/cable-microfono-proel-bulk200lu5-5mts-xlr-plug-cable-microfono-proel-bulk200lu5-5mts-xlr-plug.jpg',
         images: [
             'https://f.fcdn.app/imgs/7cb2de/www.palaciodelamusica.com.uy/pmusuy/cd21/webp/catalogo/BULK200LU5-BULK200LU5_1/460x460/cable-microfono-proel-bulk200lu5-5mts-xlr-plug-cable-microfono-proel-bulk200lu5-5mts-xlr-plug.jpg'
@@ -904,7 +904,7 @@ export default [
         rating: 4.89,
         stock: 6,
         brand: 'Proel.',
-        category: 'cables',
+        category: 'Cables',
         thumbnail: 'https://f.fcdn.app/imgs/20a1c3/www.palaciodelamusica.com.uy/pmusuy/d9a6/webp/catalogo/DHX360LU10-DHX360LU10_1/2000-2000/cable-speaker-proel-dhx360lu10-2-x-speakon-10mts-cable-speaker-proel-dhx360lu10-2-x-speakon-10mts.jpg',
         images: [
             'https://f.fcdn.app/imgs/20a1c3/www.palaciodelamusica.com.uy/pmusuy/d9a6/webp/catalogo/DHX360LU10-DHX360LU10_1/2000-2000/cable-speaker-proel-dhx360lu10-2-x-speakon-10mts-cable-speaker-proel-dhx360lu10-2-x-speakon-10mts.jpg',
@@ -919,7 +919,7 @@ export default [
         rating: 4.62,
         stock: 136,
         brand: 'Santo Angelo.',
-        category: 'cables',
+        category: 'Cables',
         thumbnail: 'https://f.fcdn.app/imgs/b6c2b4/www.palaciodelamusica.com.uy/pmusuy/2cd0/webp/catalogo/709058-709058_1/460x460/cable-speaker-santo-angelo-2-x-spk-10-m-cable-speaker-santo-angelo-2-x-spk-10-m.jpg',
         images: [
             'https://f.fcdn.app/imgs/b6c2b4/www.palaciodelamusica.com.uy/pmusuy/2cd0/webp/catalogo/709058-709058_1/460x460/cable-speaker-santo-angelo-2-x-spk-10-m-cable-speaker-santo-angelo-2-x-spk-10-m.jpg',
@@ -934,7 +934,7 @@ export default [
         rating: 4.9,
         stock: 122,
         brand: 'Lexsen.',
-        category: 'cables',
+        category: 'Cables',
         thumbnail: 'https://f.fcdn.app/imgs/f6afc1/www.palaciodelamusica.com.uy/pmusuy/cf86/webp/catalogo/MC4115M-MC4115M_1/2000-2000/cable-microfono-lexsen-mc41-xlr-xlr-15m-cable-microfono-lexsen-mc41-xlr-xlr-15m.jpg',
         images: [
             'https://f.fcdn.app/imgs/f6afc1/www.palaciodelamusica.com.uy/pmusuy/cf86/webp/catalogo/MC4115M-MC4115M_1/2000-2000/cable-microfono-lexsen-mc41-xlr-xlr-15m-cable-microfono-lexsen-mc41-xlr-xlr-15m.jpg',,
@@ -950,7 +950,7 @@ export default [
         rating: 4.38,
         stock: 6,
         brand: 'Lexsen.',
-        category: 'audio supports',
+        category: 'Audio Supports',
         thumbnail: 'https://f.fcdn.app/imgs/7eed41/www.palaciodelamusica.com.uy/pmusuy/88e8/webp/catalogo/SS101-SS101_1/2000-2000/soporte-caja-acustica-lexsen-ss101-soporte-caja-acustica-lexsen-ss101.jpg',
         images: [
             'https://f.fcdn.app/imgs/7eed41/www.palaciodelamusica.com.uy/pmusuy/88e8/webp/catalogo/SS101-SS101_1/2000-2000/soporte-caja-acustica-lexsen-ss101-soporte-caja-acustica-lexsen-ss101.jpg',
@@ -965,7 +965,7 @@ export default [
         rating: 4.91,
         stock: 20,
         brand: 'Stagg.',
-        category: 'audio supports',
+        category: 'Audio Supports',
         thumbnail: 'https://f.fcdn.app/imgs/97407d/www.palaciodelamusica.com.uy/pmusuy/5bd0/webp/catalogo/COS10BK-COS10BK_1/2000-2000/soporte-laptop-stagg-cos10-black-soporte-laptop-stagg-cos10-black.jpg',
         images: [
             'https://f.fcdn.app/imgs/4e600d/www.palaciodelamusica.com.uy/pmusuy/4e8e/webp/catalogo/COS10BK-COS10BK_4/460x460/soporte-laptop-stagg-cos10-black-soporte-laptop-stagg-cos10-black.jpg',
@@ -983,7 +983,7 @@ export default [
         rating: 4.41,
         stock: 68,
         brand: 'Soundking.',
-        category: 'audio supports',
+        category: 'Audio Supports',
         thumbnail: 'https://f.fcdn.app/imgs/706f8e/www.palaciodelamusica.com.uy/pmusuy/7fe0/webp/catalogo/DA026-DA026_1/2000-2000/soporte-luces-soundking-da026-t-c-malacate-soporte-luces-soundking-da026-t-c-malacate.jpg',
         images: [
             'https://f.fcdn.app/imgs/706f8e/www.palaciodelamusica.com.uy/pmusuy/7fe0/webp/catalogo/DA026-DA026_1/2000-2000/soporte-luces-soundking-da026-t-c-malacate-soporte-luces-soundking-da026-t-c-malacate.jpg',
@@ -998,7 +998,7 @@ export default [
         rating: 4.33,
         stock: 137,
         brand: 'Apogee.',
-        category: 'audio supports',
+        category: 'Audio Supports',
         thumbnail: 'https://f.fcdn.app/imgs/86e386/www.palaciodelamusica.com.uy/pmusuy/cf73/webp/catalogo/MS122-MS122_1/2000-2000/soporte-microfono-apogee-ms122-arana-soporte-microfono-apogee-ms122-arana.jpg',
         images: [
             'https://f.fcdn.app/imgs/bea6b3/www.palaciodelamusica.com.uy/pmusuy/4a47/webp/catalogo/MS122-MS122_3/460x460/soporte-microfono-apogee-ms122-arana-soporte-microfono-apogee-ms122-arana.jpg',
@@ -1015,7 +1015,7 @@ export default [
         rating: 4.55,
         stock: 129,
         brand: 'Proel.',
-        category: 'audio supports',
+        category: 'Audio Supports',
         thumbnail: 'https://f.fcdn.app/imgs/8e4a78/www.palaciodelamusica.com.uy/pmusuy/cc41/webp/catalogo/DST260-DST260_1/460x460/soporte-microfono-proel-dst260-flex-mesa-con-cable-soporte-microfono-proel-dst260-flex-mesa-con-cable.jpg',
         images: [
             'https://f.fcdn.app/imgs/c4874d/www.palaciodelamusica.com.uy/pmusuy/c54d/webp/catalogo/DST260-DST260_2/460x460/soporte-microfono-proel-dst260-flex-mesa-con-cable-soporte-microfono-proel-dst260-flex-mesa-con-cable.jpg',
@@ -1032,7 +1032,7 @@ export default [
         rating: 4.63,
         stock: 91,
         brand: 'Behringer.',
-        category: 'audio accesories',
+        category: 'Audio Accesories',
         thumbnail: 'https://f.fcdn.app/imgs/0c1d11/www.palaciodelamusica.com.uy/pmusuy/e74d/webp/catalogo/DI20-DI20_1/2000-2000/caja-directa-behringer-di20-ultra-di-caja-directa-behringer-di20-ultra-di.jpg',
         images: [
             'https://f.fcdn.app/imgs/65ffbb/www.palaciodelamusica.com.uy/pmusuy/c23c/webp/catalogo/DI20-DI20_2/460x460/caja-directa-behringer-di20-ultra-di-caja-directa-behringer-di20-ultra-di.jpg',
@@ -1048,7 +1048,7 @@ export default [
         rating: 4.05,
         stock: 95,
         brand: 'Radial.',
-        category: 'audio accesories',
+        category: 'Audio Accesories',
         thumbnail: 'https://f.fcdn.app/imgs/29c5c7/www.palaciodelamusica.com.uy/pmusuy/735f/webp/catalogo/R8001115-R8001115_1/2000-2000/caja-directa-radial-pro-av2-caja-directa-radial-pro-av2.jpg',
         images: [
             'https://f.fcdn.app/imgs/92d079/www.palaciodelamusica.com.uy/pmusuy/0b59/webp/catalogo/R8001115-R8001115_2/460x460/caja-directa-radial-pro-av2-caja-directa-radial-pro-av2.jpg',
@@ -1064,7 +1064,7 @@ export default [
         rating: 4.89,
         stock: 142,
         brand: 'Behringer.',
-        category: 'audio accesories',
+        category: 'Audio Accesories',
         thumbnail: 'https://f.fcdn.app/imgs/5dfe15/www.palaciodelamusica.com.uy/pmusuy/2fcf/webp/catalogo/SD8-SD8_1/2000-2000/stagebox-medusa-digital-behringer-sd8-stagebox-medusa-digital-behringer-sd8.jpg',
         images: [
             'https://f.fcdn.app/imgs/990b82/www.palaciodelamusica.com.uy/pmusuy/ea4c/webp/catalogo/SD8-SD8_2/2000-2000/stagebox-medusa-digital-behringer-sd8-stagebox-medusa-digital-behringer-sd8.jpg',
@@ -1082,7 +1082,7 @@ export default [
         rating: 4.98,
         stock: 61,
         brand: 'audio-technica',
-        category: 'audio accesories',
+        category: 'Audio Accesories',
         thumbnail: 'https://f.fcdn.app/imgs/416602/www.palaciodelamusica.com.uy/pmusuy/43ef/webp/catalogo/AT8175-AT8175_1/2000-2000/antipop-audio-technica-at8175-antipop-audio-technica-at8175.jpg',
         images: [
             'https://f.fcdn.app/imgs/dfe285/www.palaciodelamusica.com.uy/pmusuy/2948/webp/catalogo/AT8175-AT8175_2/460x460/antipop-audio-technica-at8175-antipop-audio-technica-at8175.jpg',
@@ -1098,7 +1098,7 @@ export default [
         rating: 4.79,
         stock: 94,
         brand: 'Dbx.',
-        category: 'audio accesories',
+        category: 'Audio Accesories',
         thumbnail: 'https://f.fcdn.app/imgs/7022c6/www.palaciodelamusica.com.uy/pmusuy/7ed5/webp/catalogo/DBXDI4-DBXDI4_1/2000-2000/caja-directa-dbx-di4-caja-directa-dbx-di4.jpg',
         images: [
             'https://f.fcdn.app/imgs/196961/www.palaciodelamusica.com.uy/pmusuy/10a0/webp/catalogo/DBXDI4-DBXDI4_2/460x460/caja-directa-dbx-di4-caja-directa-dbx-di4.jpg',
@@ -1114,7 +1114,7 @@ export default [
         rating: 4.79,
         stock: 24,
         brand: 'Pioneer.',
-        category: 'cd players',
+        category: 'CD Players',
         thumbnail: 'https://f.fcdn.app/imgs/5fdd74/www.palaciodelamusica.com.uy/pmusuy/d1d3/webp/catalogo/CDJ3000-CDJ3000_1/2000-2000/reproductor-dj-pioneer-dj-cdj3000-reproductor-dj-pioneer-dj-cdj3000.jpg',
         images: [
             'https://f.fcdn.app/imgs/209210/www.palaciodelamusica.com.uy/pmusuy/b1f4/webp/catalogo/CDJ3000-CDJ3000_2/460x460/reproductor-dj-pioneer-dj-cdj3000-reproductor-dj-pioneer-dj-cdj3000.jpg',
@@ -1132,7 +1132,7 @@ export default [
         rating: 4.03,
         stock: 46,
         brand: 'Pioneer',
-        category: 'cd players',
+        category: 'CD Players',
         thumbnail: 'https://f.fcdn.app/imgs/ce848f/www.palaciodelamusica.com.uy/pmusuy/13e4/webp/catalogo/XDJ-700-XDJ-700_1/2000-2000/reproductor-pioneer-xdj-700-reproductor-pioneer-xdj-700.jpg',
         images: [
             'https://f.fcdn.app/imgs/0097c2/www.palaciodelamusica.com.uy/pmusuy/f0d7/webp/catalogo/XDJ-700-XDJ-700_2/2000-2000/reproductor-pioneer-xdj-700-reproductor-pioneer-xdj-700.jpg',
@@ -1149,7 +1149,7 @@ export default [
         rating: 4.55,
         stock: 77,
         brand: 'Pioneer.',
-        category: 'cd players',
+        category: 'CD Players',
         thumbnail: 'https://f.fcdn.app/imgs/cbd00f/www.palaciodelamusica.com.uy/pmusuy/5687/webp/catalogo/XDJ1000-XDJ1000_1/2000-2000/reproductor-pioneer-xdj1000-mk2-reproductor-pioneer-xdj1000-mk2.jpg',
         images: [
             'https://f.fcdn.app/imgs/27e64b/www.palaciodelamusica.com.uy/pmusuy/5859/webp/catalogo/XDJ1000-XDJ1000_2/2000-2000/reproductor-pioneer-xdj1000-mk2-reproductor-pioneer-xdj1000-mk2.jpg',
@@ -1166,7 +1166,7 @@ export default [
         rating: 4.77,
         stock: 89,
         brand: 'Pls.',
-        category: 'smoke machines',
+        category: 'Smoke Machines',
         thumbnail: 'https://f.fcdn.app/imgs/755185/www.palaciodelamusica.com.uy/pmusuy/843b/webp/catalogo/F163000W-F163000W_1/2000-2000/maquina-de-humo-bajo-pls-3000w-dmx-f16-maquina-de-humo-bajo-pls-3000w-dmx-f16.jpg',
         images: [
             'https://f.fcdn.app/imgs/01e704/www.palaciodelamusica.com.uy/pmusuy/e588/webp/catalogo/F163000W-F163000W_2/2000-2000/maquina-de-humo-bajo-pls-3000w-dmx-f16-maquina-de-humo-bajo-pls-3000w-dmx-f16.jpg',
@@ -1185,7 +1185,7 @@ export default [
         rating: 4.08,
         stock: 111,
         brand: 'Antari',
-        category: 'smoke machines',
+        category: 'Smoke Machines',
         thumbnail: 'https://f.fcdn.app/imgs/9ad6ab/www.palaciodelamusica.com.uy/pmusuy/a77d/webp/catalogo/F80Z-F80Z_1/2000-2000/maquina-de-humo-antari-f80z-maquina-de-humo-antari-f80z.jpg',
         images: [
             'https://f.fcdn.app/imgs/2affbf/www.palaciodelamusica.com.uy/pmusuy/4fac/webp/catalogo/F80Z-F80Z_2/460x460/maquina-de-humo-antari-f80z-maquina-de-humo-antari-f80z.jpg',
@@ -1201,7 +1201,7 @@ export default [
         rating: 4.71,
         stock: 17,
         brand: 'Pls.',
-        category: 'smoke machines',
+        category: 'Smoke Machines',
         thumbnail: 'https://f.fcdn.app/imgs/abb97b/www.palaciodelamusica.com.uy/pmusuy/9c1b/webp/catalogo/F26MINI900WLED-F26MINI900WLED_1/2000-2000/maquina-de-humo-pls-vertical-f26-mini-900w-con-led-maquina-de-humo-pls-vertical-f26-mini-900w-con-led.jpg',
         images: [
             'https://f.fcdn.app/imgs/3f341a/www.palaciodelamusica.com.uy/pmusuy/fcc7/webp/catalogo/F26MINI900WLED-F26MINI900WLED_2/2000-2000/maquina-de-humo-pls-vertical-f26-mini-900w-con-led-maquina-de-humo-pls-vertical-f26-mini-900w-con-led.jpg',
@@ -1219,7 +1219,7 @@ export default [
         rating: 4.91,
         stock: 27,
         brand: 'Pls.',
-        category: 'smoke machines',
+        category: 'Smoke Machines',
         thumbnail: 'https://f.fcdn.app/imgs/096267/www.palaciodelamusica.com.uy/pmusuy/490a/webp/catalogo/F23LED-F23LED_1/2000-2000/maquina-de-humo-pls-f23-1500w-con-leds-maquina-de-humo-pls-f23-1500w-con-leds.jpg',
         images: [
             'https://f.fcdn.app/imgs/382d66/www.palaciodelamusica.com.uy/pmusuy/fef4/webp/catalogo/F23LED-F23LED_2/460x460/maquina-de-humo-pls-f23-1500w-con-leds-maquina-de-humo-pls-f23-1500w-con-leds.jpg',
@@ -1237,7 +1237,7 @@ export default [
         rating: 4.18,
         stock: 101,
         brand: 'Antari',
-        category: 'smoke machines',
+        category: 'Smoke Machines',
         thumbnail: 'https://i.dummyjson.com/data/products/73/thumbnail.jpg',
         images: [
             'https://f.fcdn.app/imgs/af526a/www.palaciodelamusica.com.uy/pmusuy/393a/webp/catalogo/HZ350E-HZ350E_2/460x460/maquina-de-niebla-digital-antari-hz350e-control-re-maquina-de-niebla-digital-antari-hz350e-control-re.jpg',
@@ -1253,7 +1253,7 @@ export default [
         rating: 4.01,
         stock: 43,
         brand: 'Ion.',
-        category: 'record players',
+        category: 'Record Players',
         thumbnail: 'https://f.fcdn.app/imgs/4eb234/www.palaciodelamusica.com.uy/pmusuy/d9b7/webp/catalogo/CLASSICLP-CLASSICLP_1/2000-2000/bandeja-de-vinilo-ion-classiclp-bandeja-de-vinilo-ion-classiclp.jpg',
         images: [
             'https://f.fcdn.app/imgs/d35214/www.palaciodelamusica.com.uy/pmusuy/6563/webp/catalogo/CLASSICLP-CLASSICLP_2/2000-2000/bandeja-de-vinilo-ion-classiclp-bandeja-de-vinilo-ion-classiclp.jpg',
@@ -1269,7 +1269,7 @@ export default [
         rating: 4.93,
         stock: 13,
         brand: 'Pioneer',
-        category: 'record players',
+        category: 'Record Players',
         thumbnail: 'https://f.fcdn.app/imgs/23a40a/www.palaciodelamusica.com.uy/pmusuy/7ca3/webp/catalogo/PLX500BLK-PLX500BLK_1/2000-2000/bandeja-de-vinilo-pioneer-dj-plx500-negra-bandeja-de-vinilo-pioneer-dj-plx500-negra.jpg',
         images: [
             'https://f.fcdn.app/imgs/a8c7b2/www.palaciodelamusica.com.uy/pmusuy/c702/webp/catalogo/PLX500BLK-PLX500BLK_2/2000-2000/bandeja-de-vinilo-pioneer-dj-plx500-negra-bandeja-de-vinilo-pioneer-dj-plx500-negra.jpg',
@@ -1287,7 +1287,7 @@ export default [
         rating: 4.61,
         stock: 51,
         brand: 'Pioneer.',
-        category: 'record players',
+        category: 'Record Players',
         thumbnail: 'https://f.fcdn.app/imgs/292111/www.palaciodelamusica.com.uy/pmusuy/93ec/webp/catalogo/PLX1000-PLX1000_1/2000-2000/bandeja-de-vinilo-pioneer-plx1000-bandeja-de-vinilo-pioneer-plx1000.jpg',
         images: [
             'https://f.fcdn.app/imgs/41b5ac/www.palaciodelamusica.com.uy/pmusuy/a712/webp/catalogo/PLX1000-PLX1000_2/2000-2000/bandeja-de-vinilo-pioneer-plx1000-bandeja-de-vinilo-pioneer-plx1000.jpg',
@@ -1304,7 +1304,7 @@ export default [
         rating: 4.21,
         stock: 149,
         brand: 'Pro=Ject',
-        category: 'record players',
+        category: 'Record Players',
         thumbnail: 'https://f.fcdn.app/imgs/5c2bc6/www.palaciodelamusica.com.uy/pmusuy/e629/webp/catalogo/9120065186042-9120065186042_1/2000-2000/bandeja-de-vinilo-pro-ject-debut-carbon-dc-esprit-sb-2m-red-the-beatles-1964-bandeja-de-vinilo-pro-ject-debut-carbon-dc-esprit-sb-2m-red-the-beatles-1964.jpg',
         images: [
             'https://f.fcdn.app/imgs/20d5a2/www.palaciodelamusica.com.uy/pmusuy/12f1/webp/catalogo/9120065186042-9120065186042_2/460x460/bandeja-de-vinilo-pro-ject-debut-carbon-dc-esprit-sb-2m-red-the-beatles-1964-bandeja-de-vinilo-pro-ject-debut-carbon-dc-esprit-sb-2m-red-the-beatles-1964.jpg',
@@ -1321,7 +1321,7 @@ export default [
         rating: 4.69,
         stock: 9,
         brand: 'TOSHIBA.',
-        category: 'record players',
+        category: 'Record Players',
         thumbnail: 'https://f.fcdn.app/imgs/0248de/www.palaciodelamusica.com.uy/pmusuy/cc92/webp/catalogo/RP40SHARP-RP40SHARP_1/2000-2000/bandeja-de-vinilo-con-parlantes-sharp-rp40-bandeja-de-vinilo-con-parlantes-sharp-rp40.jpg',
         images: ['https://f.fcdn.app/imgs/0248de/www.palaciodelamusica.com.uy/pmusuy/cc92/webp/catalogo/RP40SHARP-RP40SHARP_1/2000-2000/bandeja-de-vinilo-con-parlantes-sharp-rp40-bandeja-de-vinilo-con-parlantes-sharp-rp40.jpg'],
     },
@@ -1334,7 +1334,7 @@ export default [
         rating: 4.74,
         stock: 16,
         brand: 'audio-technica',
-        category: 'record players',
+        category: 'Record Players',
         thumbnail: 'https://f.fcdn.app/imgs/1c921e/www.palaciodelamusica.com.uy/pmusuy/bb65/webp/catalogo/ATLPW40WN-ATLPW40WN_1/2000-2000/bandeja-de-vinilo-audio-technica-lpw40wn-bandeja-de-vinilo-audio-technica-lpw40wn.jpg',
         images: [
             'https://f.fcdn.app/imgs/4fd193/www.palaciodelamusica.com.uy/pmusuy/12be/webp/catalogo/ATLPW40WN-ATLPW40WN_2/2000-2000/bandeja-de-vinilo-audio-technica-lpw40wn-bandeja-de-vinilo-audio-technica-lpw40wn.jpg',
@@ -1351,7 +1351,7 @@ export default [
         rating: 4.59,
         stock: 9,
         brand: 'Apogee',
-        category: 'record players',
+        category: 'Record Players',
         thumbnail: 'https://f.fcdn.app/imgs/c6f42f/www.palaciodelamusica.com.uy/pmusuy/577d/webp/catalogo/MDY1603BK-MDY1603BK_1/2000-2000/bandeja-de-vinilo-apogee-mdy1603-black-bandeja-de-vinilo-apogee-mdy1603-black.jpg',
         images: [
             'https://f.fcdn.app/imgs/50519d/www.palaciodelamusica.com.uy/pmusuy/a284/webp/catalogo/MDY1603BK-MDY1603BK_2/2000-2000/bandeja-de-vinilo-apogee-mdy1603-black-bandeja-de-vinilo-apogee-mdy1603-black.jpg',
@@ -1370,7 +1370,7 @@ export default [
         rating: 4.94,
         stock: 78,
         brand: 'Gator.',
-        category: 'cases',
+        category: 'Cases',
         thumbnail: 'https://f.fcdn.app/imgs/b06cb8/www.palaciodelamusica.com.uy/pmusuy/c106/webp/catalogo/GTOURM32NDH-GTOURM32NDH_1/2000-2000/estuche-consola-digital-gator-m32-s-doghouse-estuche-consola-digital-gator-m32-s-doghouse.jpg',
         images: [
             'https://f.fcdn.app/imgs/d288e0/www.palaciodelamusica.com.uy/pmusuy/94a4/webp/catalogo/GTOURM32NDH-GTOURM32NDH_2/460x460/estuche-consola-digital-gator-m32-s-doghouse-estuche-consola-digital-gator-m32-s-doghouse.jpg',
@@ -1388,7 +1388,7 @@ export default [
         rating: 4.62,
         stock: 78,
         brand: 'Gator.',
-        category: 'cases',
+        category: 'Cases',
         thumbnail: 'https://f.fcdn.app/imgs/143f80/www.palaciodelamusica.com.uy/pmusuy/1fd5/webp/catalogo/GM1WP-GM1WP_1/460x460/estuche-microfono-gator-gm1wp-estuche-microfono-gator-gm1wp.jpg',
         images: [
             'https://f.fcdn.app/imgs/dc3e34/www.palaciodelamusica.com.uy/pmusuy/fe2e/webp/catalogo/GM1WP-GM1WP_2/460x460/estuche-microfono-gator-gm1wp-estuche-microfono-gator-gm1wp.jpg',
@@ -1407,7 +1407,7 @@ export default [
         rating: 4.97,
         stock: 115,
         brand: 'Gator.',
-        category: 'cases',
+        category: 'Cases',
         thumbnail: 'https://f.fcdn.app/imgs/e0d011/www.palaciodelamusica.com.uy/pmusuy/44c4/webp/catalogo/GM4WR-GM4WR_1/2000-2000/estuche-microfono-gator-gm4wr-estuche-microfono-gator-gm4wr.jpg',
         images: [
             'https://f.fcdn.app/imgs/50238d/www.palaciodelamusica.com.uy/pmusuy/d549/webp/catalogo/GM4WR-GM4WR_2/460x460/estuche-microfono-gator-gm4wr-estuche-microfono-gator-gm4wr.jpg',
@@ -1426,7 +1426,7 @@ export default [
         rating: 4.64,
         stock: 64,
         brand: 'Gator.',
-        category: 'cases',
+        category: 'Cases',
         thumbnail: 'https://f.fcdn.app/imgs/1740d6/www.palaciodelamusica.com.uy/pmusuy/49e5/webp/catalogo/GTABLETMIX-GTABLETMIX_1/2000-2000/estuche-mixer-gator-gtablet-mix-estuche-mixer-gator-gtablet-mix.jpg',
         images: [
             'https://f.fcdn.app/imgs/32a014/www.palaciodelamusica.com.uy/pmusuy/5afc/webp/catalogo/GTABLETMIX-GTABLETMIX_2/2000-2000/estuche-mixer-gator-gtablet-mix-estuche-mixer-gator-gtablet-mix.jpg',
@@ -1443,7 +1443,7 @@ export default [
         rating: 4.98,
         stock: 92,
         brand: 'Gator.',
-        category: 'cases',
+        category: 'Cases',
         thumbnail: 'https://f.fcdn.app/imgs/e95196/www.palaciodelamusica.com.uy/pmusuy/f000/webp/catalogo/GTOUR10UCAST-GTOUR10UCAST_1/2000-2000/estuche-rack-gator-gtour-10-unidades-con-ruedas-estuche-rack-gator-gtour-10-unidades-con-ruedas.jpg',
         images: [
             'https://f.fcdn.app/imgs/834765/www.palaciodelamusica.com.uy/pmusuy/a3a8/webp/catalogo/GTOUR10UCAST-GTOUR10UCAST_2/2000-2000/estuche-rack-gator-gtour-10-unidades-con-ruedas-estuche-rack-gator-gtour-10-unidades-con-ruedas.jpg',
@@ -1460,7 +1460,7 @@ export default [
         rating: 4.57,
         stock: 22,
         brand: 'Behringer.',
-        category: 'consoles',
+        category: 'Consoles',
         thumbnail: 'https://f.fcdn.app/imgs/82ee59/www.palaciodelamusica.com.uy/pmusuy/14e8/webp/catalogo/WING-WING_1/2000-2000/consola-digital-behringer-wing-consola-digital-behringer-wing.jpg',
         images: [
             'https://f.fcdn.app/imgs/7192fe/www.palaciodelamusica.com.uy/pmusuy/e26e/webp/catalogo/WING-WING_2/460x460/consola-digital-behringer-wing-consola-digital-behringer-wing.jpg',
@@ -1477,7 +1477,7 @@ export default [
         rating: 4.54,
         stock: 37,
         brand: 'Midas.',
-        category: 'consoles',
+        category: 'Consoles',
         thumbnail: 'https://f.fcdn.app/imgs/a7f6cd/www.palaciodelamusica.com.uy/pmusuy/ae95/webp/catalogo/M32LIVE-M32LIVE_1/2000-2000/consola-digital-midas-m32-live-grabacion-multipista-consola-digital-midas-m32-live-grabacion-multipista.jpg',
         images: [
             'https://f.fcdn.app/imgs/2b73a8/www.palaciodelamusica.com.uy/pmusuy/14ea/webp/catalogo/M32LIVE-M32LIVE_2/460x460/consola-digital-midas-m32-live-grabacion-multipista-consola-digital-midas-m32-live-grabacion-multipista.jpg',
@@ -1493,7 +1493,7 @@ export default [
         rating: 4.98,
         stock: 42,
         brand: 'Soundcraft.',
-        category: 'consoles',
+        category: 'Consoles',
         thumbnail: 'https://f.fcdn.app/imgs/456301/www.palaciodelamusica.com.uy/pmusuy/8d7c/webp/catalogo/UI12-UI12_1/2000-2000/consola-digita-soundcraft-ui-12-consola-digita-soundcraft-ui-12.jpg',
         images: [
             'https://f.fcdn.app/imgs/a21278/www.palaciodelamusica.com.uy/pmusuy/72d9/webp/catalogo/UI12-UI12_2/460x460/consola-digita-soundcraft-ui-12-consola-digita-soundcraft-ui-12.jpg',
@@ -1509,7 +1509,7 @@ export default [
         rating: 4.2,
         stock: 79,
         brand: 'Midas.',
-        category: 'consoles',
+        category: 'Consoles',
         thumbnail: 'https://f.fcdn.app/imgs/a27e63/www.palaciodelamusica.com.uy/pmusuy/83c2/webp/catalogo/MR12-MR12_1/2000-2000/consola-inalambrica-mr12-consola-inalambrica-mr12.jpg',
         images: [
             'https://f.fcdn.app/imgs/d78a35/www.palaciodelamusica.com.uy/pmusuy/42c0/webp/catalogo/MR12-MR12_2/460x460/consola-inalambrica-mr12-consola-inalambrica-mr12.jpg',
@@ -1528,7 +1528,7 @@ export default [
         rating: 4.1,
         stock: 63,
         brand: 'Behringer',
-        category: 'consoles',
+        category: 'Consoles',
         thumbnail: 'https://f.fcdn.app/imgs/a42684/www.palaciodelamusica.com.uy/pmusuy/d159/webp/catalogo/QX2442USB-QX2442USB_1/2000-2000/consola-behringer-qx2442usb-consola-behringer-qx2442usb.jpg',
         images: [
             'https://f.fcdn.app/imgs/41c423/www.palaciodelamusica.com.uy/pmusuy/2b37/webp/catalogo/QX2442USB-QX2442USB_2/460x460/consola-behringer-qx2442usb-consola-behringer-qx2442usb.jpg',
@@ -1546,7 +1546,7 @@ export default [
         rating: 4.04,
         stock: 115,
         brand: 'JBL.',
-        category: 'multimedia',
+        category: 'Multimedia',
         thumbnail: 'https://f.fcdn.app/imgs/348036/www.palaciodelamusica.com.uy/pmusuy/f966/webp/catalogo/JBLGO3GRYAM-JBLGO3GRYAM_1/2000-2000/reproductor-bt-jbl-go3-gris-y-fucsia-reproductor-bt-jbl-go3-gris-y-fucsia.jpg',
         images: [
             'https://f.fcdn.app/imgs/d6c364/www.palaciodelamusica.com.uy/pmusuy/f3f3/webp/catalogo/JBLGO3GRYAM-JBLGO3GRYAM_2/460x460/reproductor-bt-jbl-go3-gris-y-fucsia-reproductor-bt-jbl-go3-gris-y-fucsia.jpg',
@@ -1565,7 +1565,7 @@ export default [
         rating: 4.19,
         stock: 22,
         brand: 'TOSHIBA.',
-        category: 'multimedia',
+        category: 'Multimedia',
         thumbnail: 'https://f.fcdn.app/imgs/0aaa3e/www.palaciodelamusica.com.uy/pmusuy/d744/webp/catalogo/WSP200L-WSP200L_1/2000-2000/reproductor-bt-toshiba-water-proof-wsp200-azul-reproductor-bt-toshiba-water-proof-wsp200-azul.jpg',
         images: [
             'https://f.fcdn.app/imgs/8473af/www.palaciodelamusica.com.uy/pmusuy/e1ff/webp/catalogo/WSP200L-WSP200L_2/460x460/reproductor-bt-toshiba-water-proof-wsp200-azul-reproductor-bt-toshiba-water-proof-wsp200-azul.jpg',
@@ -1582,7 +1582,7 @@ export default [
         rating: 4.84,
         stock: 127,
         brand: 'JBL.',
-        category: 'multimedia',
+        category: 'Multimedia',
         thumbnail: 'https://f.fcdn.app/imgs/5b64df/www.palaciodelamusica.com.uy/pmusuy/c5de/webp/catalogo/PARTYBOX110-PARTYBOX110_1/2000-2000/caja-acustica-jbl-partybox-110-caja-acustica-jbl-partybox-110.jpg',
         images: [
             'https://f.fcdn.app/imgs/b3fad0/www.palaciodelamusica.com.uy/pmusuy/5714/webp/catalogo/PARTYBOX110-PARTYBOX110_3/2000-2000/caja-acustica-jbl-partybox-110-caja-acustica-jbl-partybox-110.jpg',
@@ -1599,7 +1599,7 @@ export default [
         rating: 4.06,
         stock: 109,
         brand: 'audio pro.',
-        category: 'multimedia',
+        category: 'Multimedia',
         thumbnail: 'https://f.fcdn.app/imgs/71bd9f/www.palaciodelamusica.com.uy/pmusuy/dbed/webp/catalogo/A15LG-A15LG_1/460x460/reproductor-bt-audiopro-a15lg-reproductor-bt-audiopro-a15lg.jpg',
         images: [
             'https://f.fcdn.app/imgs/25e043/www.palaciodelamusica.com.uy/pmusuy/4470/webp/catalogo/A15LG-A15LG_2/2000-2000/reproductor-bt-audiopro-a15lg-reproductor-bt-audiopro-a15lg.jpg',
@@ -1616,7 +1616,7 @@ export default [
         rating: 4.21,
         stock: 144,
         brand: 'Sharp.',
-        category: 'multimedia',
+        category: 'Multimedia',
         thumbnail: 'https://f.fcdn.app/imgs/4527f9/www.palaciodelamusica.com.uy/pmusuy/4382/webp/catalogo/SHXLHF102B-SHXLHF102B_1/2000-2000/microcomponente-sharp-hf102b-microcomponente-sharp-hf102b.jpg',
         images: [
             'https://f.fcdn.app/imgs/c3d098/www.palaciodelamusica.com.uy/pmusuy/1a32/webp/catalogo/SHXLHF102B-SHXLHF102B_2/460x460/microcomponente-sharp-hf102b-microcomponente-sharp-hf102b.jpg',
@@ -1632,7 +1632,7 @@ export default [
         rating: 4.83,
         stock: 96,
         brand: 'Behringer',
-        category: 'monitoring system',
+        category: 'Monitoring System',
         thumbnail: 'https://f.fcdn.app/imgs/bedffc/www.palaciodelamusica.com.uy/pmusuy/7f3a/webp/catalogo/P1-P1_1/2000-2000/sistema-de-monitoreo-behringer-p1-sistema-de-monitoreo-behringer-p1.jpg',
         images: [
             'https://f.fcdn.app/imgs/cb0971/www.palaciodelamusica.com.uy/pmusuy/4473/webp/catalogo/P1-P1_2/2000-2000/sistema-de-monitoreo-behringer-p1-sistema-de-monitoreo-behringer-p1.jpg',
@@ -1649,7 +1649,7 @@ export default [
         rating: 4.93,
         stock: 146,
         brand: 'Behringer.',
-        category: 'monitoring system',
+        category: 'Monitoring System',
         thumbnail: 'https://f.fcdn.app/imgs/f88c7b/www.palaciodelamusica.com.uy/pmusuy/9387/webp/catalogo/PM1-PM1_1/2000-2000/sistema-de-monitoreo-in-ear-behringer-pm1-mono-sistema-de-monitoreo-in-ear-behringer-pm1-mono.jpg',
         images: [
             'https://f.fcdn.app/imgs/87c42e/www.palaciodelamusica.com.uy/pmusuy/bb6c/webp/catalogo/PM1-PM1_2/460x460/sistema-de-monitoreo-in-ear-behringer-pm1-mono-sistema-de-monitoreo-in-ear-behringer-pm1-mono.jpg',
@@ -1667,7 +1667,7 @@ export default [
         rating: 4.99,
         stock: 44,
         brand: 'SHURE.',
-        category: 'monitoring system',
+        category: 'Monitoring System',
         thumbnail: 'https://f.fcdn.app/imgs/146611/www.palaciodelamusica.com.uy/pmusuy/0f6e/webp/catalogo/P3TRA215CLK12-P3TRA215CLK12_1/2000-2000/sistema-de-monitoreo-in-ear-shure-p3tra215cl-psm-p3t-p3ra-se215-sistema-de-monitoreo-in-ear-shure-p3tra215cl-psm-p3t-p3ra-se215.jpg',
         images: [
             'https://f.fcdn.app/imgs/146611/www.palaciodelamusica.com.uy/pmusuy/0f6e/webp/catalogo/P3TRA215CLK12-P3TRA215CLK12_1/2000-2000/sistema-de-monitoreo-in-ear-shure-p3tra215cl-psm-p3t-p3ra-se215-sistema-de-monitoreo-in-ear-shure-p3tra215cl-psm-p3t-p3ra-se215.jpg',
@@ -1683,7 +1683,7 @@ export default [
         rating: 4.32,
         stock: 138,
         brand: 'Behringer.',
-        category: 'monitoring system',
+        category: 'Monitoring System',
         thumbnail: 'https://f.fcdn.app/imgs/b0a5b7/www.palaciodelamusica.com.uy/pmusuy/c295/webp/catalogo/P16D-P16D_1/2000-2000/sistema-de-monitoreo-behringer-p16d-distributor-sistema-de-monitoreo-behringer-p16d-distributor.jpg',
         images: [
             'https://f.fcdn.app/imgs/585ffd/www.palaciodelamusica.com.uy/pmusuy/bc96/webp/catalogo/P16D-P16D_2/2000-2000/sistema-de-monitoreo-behringer-p16d-distributor-sistema-de-monitoreo-behringer-p16d-distributor.jpg',
@@ -1699,7 +1699,7 @@ export default [
         rating: 4.74,
         stock: 133,
         brand: 'Sennheiser.',
-        category: 'monitoring system',
+        category: 'Monitoring System',
         thumbnail: 'https://f.fcdn.app/imgs/c49128/www.palaciodelamusica.com.uy/pmusuy/cf86/webp/catalogo/EWIEMG4TWIN-EWIEMG4TWIN_1/2000-2000/sistema-de-monitoreo-sennheiser-ewiem-uhf-1680-ch-g4-sistema-de-monitoreo-sennheiser-ewiem-uhf-1680-ch-g4.jpg',
         images: [
             'https://f.fcdn.app/imgs/c49128/www.palaciodelamusica.com.uy/pmusuy/cf86/webp/catalogo/EWIEMG4TWIN-EWIEMG4TWIN_1/2000-2000/sistema-de-monitoreo-sennheiser-ewiem-uhf-1680-ch-g4-sistema-de-monitoreo-sennheiser-ewiem-uhf-1680-ch-g4.jpg',

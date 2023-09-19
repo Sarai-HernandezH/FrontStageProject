@@ -1,3 +1,3 @@
-import CategoryItem from './CategoryItem/CategoyItem';
+import CategoryItem from "./CategoryItem/CategoyItem";
 
-export { CategoryItem };
+export {CategoryItem}

@@ -13,4 +13,8 @@ export default styles = StyleSheet.create({
         fontSize: 30,
         fontFamily: 'Arimo',
     },
+    logo:{
+        width:50,
+        height:45,
+    },
 })

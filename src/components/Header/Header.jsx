@@ -1,6 +1,9 @@
-import { Text, View } from 'react-native';
-import React from 'react';
-import styles from './Header.styles';
+import { Text, View } from 'react-native'
+
+import React from 'react'
+import styles from './Header.styles'
+
+
 
 const Header = ({ title }) => {
     return (
