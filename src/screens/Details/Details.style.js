@@ -4,10 +4,10 @@ import { colors } from '../../../src/constants/colors';
 export default styles = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: colors.quaternary,
+        backgroundColor: colors.grey,
     },
     title:{
-        fontSize: 25,
+        fontSize: 20,
         fontFamily: 'PoppinsSemiBoldItalic',
         textAlign: 'center'
     },
@@ -17,14 +17,14 @@ export default styles = StyleSheet.create({
         marginHorizontal: 10,
         
     },
-    image: {
+    imageContainer: {
         justifyContent: 'center',
-        height: '45%',
-        width: '65%',
-        marginHorizontal: 80,
-        marginTop: 30,
-        marginBottom: 30,
-        borderRadius: 7,
+        height: '50%',
+        width: '100%',
+        alignSelf: 'center',
+    },
+    image:{
+        height:'100%'
     },
     price:{
         fontSize:20,

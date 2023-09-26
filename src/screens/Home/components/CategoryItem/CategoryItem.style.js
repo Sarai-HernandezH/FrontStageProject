@@ -12,9 +12,10 @@ export default styles = StyleSheet.create({
         padding: 10,
         justifyContent: 'center',
         alignItems:'center',
+        backgroundColor: colors.red,
     },
     text:{
         fontFamily: 'PoppinsSemiBoldItalic',
-        color: colors.primary,
+        color: colors.white,
     }
 })

@@ -4,6 +4,7 @@ import allProducts from '../../data/products';
 import styles from './Products.style';
 import {Header, SearchInput} from '../../components'
 
+
 const Products = ({ navigation, route }) => {
     const [productList, setProductsList] = useState([])
     const [keyword, setKeyword] = useState('')
@@ -33,12 +34,20 @@ const Products = ({ navigation, route }) => {
             <View>
                 <FlatList
                     data={productList}
+                    numColumns={2}
+                    columnWrapperStyle={styles.wrapperStyle}
                     renderItem={({ item }) => (
-                        <TouchableOpacity 
+                        <TouchableOpacity
+                            style={styles.productContainer} 
                             onPress={() =>
                                 navigation.navigate('Details', {product: item})   
-                            }>
-                            <Text style={styles.itemsList}>{item.title} <Image style={styles.image} source={{ uri: item.thumbnail }} /></Text>
+                            }
+                        >
+                        <Image 
+                            style={styles.image} 
+                            source={{ uri: item.thumbnail }} />
+                        <Text style={styles.itemsList}>{item.title} </Text>
+                        <Text style={styles.price}>{`$${item.price.toFixed(2)}`}</Text>
                         </TouchableOpacity>)}
                     keyExtractor={item => item.id}
                 />

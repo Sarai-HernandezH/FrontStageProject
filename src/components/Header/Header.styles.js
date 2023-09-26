@@ -3,7 +3,7 @@ import { colors } from '../../constants/colors';
 
 export default styles = StyleSheet.create({
     container:{
-        backgroundColor: colors.secondary,
+        backgroundColor: colors.red,
         height: 80,
         width: '100%',
         justifyContent: 'center',
@@ -12,9 +12,5 @@ export default styles = StyleSheet.create({
     text:{
         fontSize: 30,
         fontFamily: 'Arimo',
-    },
-    logo:{
-        width:50,
-        height:45,
     },
 })

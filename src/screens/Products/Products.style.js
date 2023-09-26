@@ -4,28 +4,38 @@ import { colors } from "../../constants/colors";
 export default styles = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: '#fff',
+    },
+    productContainer:{
+        width: '45%',
+        backgroundColor: colors.red,
+        marginBottom: 20,
+        alignItems: 'flex-start',
+        paddingVertical: 10,
+        paddingHorizontal: 8,
+        borderRadius: 10,
+        gap: 10,
     },
     itemsList:{
-        color: colors.primary,
-        fontSize: 18,
+        color: colors.white,
+        backgroundColor: colors.black,
+        fontSize: 10,
         fontFamily: 'PoppinsSemiBoldItalic', 
-        paddingHorizontal: 15,
-        paddingVertical: 18,
-        marginHorizontal: 18,
-        flex: 1,
+        alignSelf: 'center',
         marginTop: 15,
-        backgroundColor: colors.secondary,
-        shadowColor: '#000',
+        shadowColor: colors.white,
         shadowOffset: {height: 5, width: 3},
         elevation: 10,
         shadowOpacity: 1,
         shadowRadius: 1,
-        borderRadius: 5,
+        borderRadius: 2,
         flexDirection: 'row',
     },
     image:{
-        width:60,
-        height:60,
+        width:150,
+        height:150,
+        alignSelf: 'center'
+    },
+    wrapperStyle:{
+        justifyContent:'space-between',
     }
 })
