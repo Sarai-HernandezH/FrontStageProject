@@ -1,22 +1,61 @@
 export default [
-    'CDs',
-    'Vinyls',
-    'Instruments',
-    'DJ',
-    'Lights',
-    'Speakers',
-    'Microphones',
-    'Home Studio',
-    'Headsets',
-    'Home Theater',
-    'Cables',
-    'Audio Supports',
-    'Audio Accesories',
-    'CD Players',
-    'Smoke Machines',
-    'Record Players',
-    'Cases',
-    'Consoles',
-    'Multimedia',
-    'Monitoring system',
+    { 
+        title: 'CDs'
+    },
+    {
+        title: 'Vinyls'
+    },
+    {
+        title: 'Instruments'},
+    {
+        title: 'DJ'
+    },
+    {
+        title:'Lights'
+    },
+    {
+        title: 'Speakers'
+    },
+    {
+        title:'Microphones'
+    },
+    {
+        title:'Home Studio'
+    },
+    {
+        title: 'Headsets'
+    },
+    {
+        title: 'Home Theater'
+    },
+    {
+        title: 'Cables'
+    },
+    {
+        title: 'Audio Supports'
+    },
+    {
+        title: 'Audio Accesories'
+    },
+    {
+        title: 'CD Players'
+    },
+    {
+        title: 'Smoke Machines'
+    },
+    {
+        title: 'Record Players'
+    },
+    {
+        title: 'Cases'
+    },
+    {
+        title: 'Consoles'
+    },
+    {
+        title: 'Multimedia'
+    },
+    {
+        title: 'Monitoring system'
+    },
 ]

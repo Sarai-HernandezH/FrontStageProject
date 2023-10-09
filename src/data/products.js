@@ -937,7 +937,7 @@ export default [
         category: 'Cables',
         thumbnail: 'https://f.fcdn.app/imgs/f6afc1/www.palaciodelamusica.com.uy/pmusuy/cf86/webp/catalogo/MC4115M-MC4115M_1/2000-2000/cable-microfono-lexsen-mc41-xlr-xlr-15m-cable-microfono-lexsen-mc41-xlr-xlr-15m.jpg',
         images: [
-            'https://f.fcdn.app/imgs/f6afc1/www.palaciodelamusica.com.uy/pmusuy/cf86/webp/catalogo/MC4115M-MC4115M_1/2000-2000/cable-microfono-lexsen-mc41-xlr-xlr-15m-cable-microfono-lexsen-mc41-xlr-xlr-15m.jpg',,
+            'https://f.fcdn.app/imgs/f6afc1/www.palaciodelamusica.com.uy/pmusuy/cf86/webp/catalogo/MC4115M-MC4115M_1/2000-2000/cable-microfono-lexsen-mc41-xlr-xlr-15m-cable-microfono-lexsen-mc41-xlr-xlr-15m.jpg',
         ],
     },
     {

@@ -5,6 +5,7 @@ import StackNavigator from './StackNavigator';
 import CartNavigator from './CartNavigator';
 import Entypo from '@expo/vector-icons/Entypo'
 import OrdersNavigator from './OrdersNavigator';
+import ProfileNavigator from './ProfileNavigator';
 
 const BottomTab = createBottomTabNavigator()
 
@@ -56,7 +57,21 @@ function BottomTabNavigator() {
                     ),
                 }}
             />
-        </BottomTab.Navigator>)
+            <BottomTab.Screen
+                name='ProfileNav'
+                component={ProfileNavigator}
+                options={{
+                    tabBarIcon: ({ focused }) => (
+                        <Entypo
+                            name={"user"}
+                            size={24}
+                            color={focused ? colors.red : colors.white}
+                        />
+                    ),
+                }}
+            />
+        </BottomTab.Navigator>
+    )
 }
 
 export default BottomTabNavigator
