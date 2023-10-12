@@ -4,32 +4,50 @@ import { colors } from '../../../src/constants/colors';
 export default styles = StyleSheet.create({
     container:{
         flex: 1,
+        height: '100%',
         backgroundColor: colors.grey,
     },
     title:{
-        fontSize: 20,
+        fontSize: 18,
         fontFamily: 'PoppinsSemiBoldItalic',
         textAlign: 'center'
     },
     textDescription:{
         fontFamily: 'PoppinsSemiBoldItalic',
-        fontSize: 15,
+        fontSize: 13,
         marginHorizontal: 10,
         
     },
     imageContainer: {
         justifyContent: 'center',
-        height: '50%',
+        height: '45%',
         width: '100%',
         alignSelf: 'center',
     },
     image:{
-        height:'100%'
+        height:'100%',
+        width:'80%',
+        alignSelf:'center'
     },
     price:{
-        fontSize:20,
+        fontSize:18,
         fontWeight: 'bold',
-        marginVertical: 15,
+        marginVertical: 10,
         marginLeft:10,
+    },
+    addToCartButton:{
+        backgroundColor: colors.black,
+        height: 40,
+        width: '50%',
+        alignSelf: 'center',
+        borderRadius: 10,
+    },
+    addText:{
+        fontSize: 20,
+        fontFamily: 'Arimo',
+        color: colors.red,
+        fontWeight: 'bold',
+        alignSelf: 'center',
+        marginTop: 10,
     }
 })

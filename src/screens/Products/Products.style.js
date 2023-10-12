@@ -9,6 +9,8 @@ export default styles = StyleSheet.create({
         width: '45%',
         backgroundColor: colors.red,
         marginBottom: 20,
+        marginLeft:8,
+        marginRight:8,
         alignItems: 'flex-start',
         paddingVertical: 10,
         paddingHorizontal: 8,
@@ -17,7 +19,6 @@ export default styles = StyleSheet.create({
     },
     itemsList:{
         color: colors.white,
-        backgroundColor: colors.black,
         fontSize: 10,
         fontFamily: 'PoppinsSemiBoldItalic', 
         alignSelf: 'center',

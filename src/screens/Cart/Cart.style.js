@@ -4,7 +4,8 @@ import { colors } from '../../constants/colors';
 export default styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor: colors.white,
-        marginTop: 50,
+        backgroundColor: colors.grey,
+        marginTop: 0,
+        width: '100%'
     },
 });

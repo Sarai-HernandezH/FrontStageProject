@@ -4,10 +4,11 @@ import styles from './Cart.style'
 import CartItem from './components/CartItem'
 import { useSelector } from 'react-redux'
 import { usePostOrderMutation } from '../../services/shopApi'
+import { Header } from '../../components'
 
-const Cart = () => {
+const Cart = ({navigation}) => {
     const cart = useSelector(state => state.cart.items)
-    const total = useSelector(state => state.cart.total)
+    const total = useSelector(state => state.cart)
     const [triggerPost, result] = usePostOrderMutation()
 
     const renderItem = ({ item }) => <CartItem item={item} />
@@ -19,6 +20,7 @@ const Cart = () => {
 
     return (
         <View style={styles.container}>
+            <Header navigation={navigation} title={"Your Total"} />
             <View>
                 <FlatList
                     data={cart}

@@ -1,13 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    user: "userLogged",
+    user: 'userLogged',
     updatedAt: Date.now().toLocaleString(),
+    total: 50,
     items: [],
-    total: 0,
 }
 
-export const cartSlice = createSlice ({
+export const cartSlice = createSlice({
     name: 'cart',
     initialState,
     reducers: {
@@ -15,41 +15,44 @@ export const cartSlice = createSlice ({
             const productRepeated = state.items.find(
                 item => item.id === action.payload.id
             )
-            if (productRepeated){
+            if (productRepeated) {
                 const itemsUpdated = state.items.map(item => {
                     if (item.id === action.payload.id) {
                         item.quantity += action.payload.quantity
-                        return item;
+                        return item
                     }
                     return item
                 })
-                const total = itemsUpdated.reduce(
+                const newtotal = itemsUpdated.reduce(
                     (acc, current) => (acc += current.price * current.quantity),
                     0
                 )
-                state = {
+                console.log('este es el tota', newtotal)
+                return (state = {
                     ...state,
-                    item: itemsUpdated,
-                    total,
+                    items: itemsUpdated,
+                    total: 10,
                     updatedAt: new Date().toLocaleString(),
-                }
+                })
             } else {
                 state.items.push(action.payload)
-                const total = state.items.reduce(
+                const new2total = state.items.reduce(
                     (acc, current) => (acc += current.price * current.quantity),
                     0
                 )
-                state  = {
+
+                console.log('este es el total 2', new2total)
+                return (state = {
                     ...state,
-                    total,
+                    total: 20,
                     updatedAt: new Date().toLocaleString(),
-                }
+                })
             }
         },
-        removeItem: ( state, action ) => {}
+        removeItem: (state, action) => { },
     },
 })
 
-export const { addItem, removeItem} = cartSlice.actions
+export const { addItem, removeItem } = cartSlice.actions
 
 export default cartSlice.reducer

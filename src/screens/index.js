@@ -7,6 +7,8 @@ import Login from './Login/Login';
 import SignIn from './SignIn/SignIn';
 import Profile from './Profile/Profile';
 import LocationScreen from './Location/LocationScreen';
+import Index from './Home/Index/Index';
+
 export { 
     Products, 
     Home, 
@@ -16,5 +18,6 @@ export {
     Login, 
     SignIn, 
     Profile, 
-    LocationScreen
+    LocationScreen,
+    Index
 }

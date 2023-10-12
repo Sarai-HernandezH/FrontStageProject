@@ -10,7 +10,7 @@ const Home = ({ navigation }) => {
     return (
         <SafeAreaView style={styles.container}>
             <StatusBar animated={true} barStyle={'dark-content'} />
-            <Header title={'Categories'} />
+            <Header navigation={navigation} title={'Our Products'} />
             <View style={styles.listContainer}>
                 {!isLoading && (
                 <FlatList                

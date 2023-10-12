@@ -2,11 +2,13 @@ import { View, Text, Pressable, Image } from 'react-native'
 import React from 'react'
 import styles from './CartItem.style'
 import Entypo from '@expo/vector-icons/Entypo'
+import { Header } from '../../../components'
 
 
-const CartItem = ({item}) => {
+const CartItem = ({navigation, item}) => {
     return (
         <View style={styles.container}>
+            <Header navigation={navigation} title={"Cart"} />
             <View>
                 <Image
                     style={styles.image}

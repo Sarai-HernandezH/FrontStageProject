@@ -5,8 +5,7 @@ export default styles = StyleSheet.create({
     container:{
         flex:1,
         backgroundColor: colors.white,
-        justifyContent: 'center',
-        alignItems:'center'
+        marginTop: 20,
     },
     loginContainer:{
         width: '100%',
@@ -21,7 +20,8 @@ export default styles = StyleSheet.create({
         marginVertical: 15,
         justifyContent: 'center',
         alignItems: 'center',
-        color: colors.white
+        color: colors.white,
+        borderRadius: 5,
     },
     loginButton: {
         backgroundColor: colors.grey,
@@ -29,11 +29,21 @@ export default styles = StyleSheet.create({
         height: 50,
         borderRadius: 10,
         marginBottom: 15,
+        marginTop: 15,
         justifyContent: 'center',
         alignItems: 'center'
     },
     loginText:{
-        color: colors.white,
-        alignSelf: 'center'
+        color: colors.black,
+        alignSelf: 'center',
+        fontFamily: 'Arimo',
+        fontSize: 18,
+        fontWeight: 'bold',
     },
+    signInText:{
+        fontFamily: 'Arimo',
+        color: colors.black,
+        fontSize: 15,
+        marginBottom: -10,
+    }
 });

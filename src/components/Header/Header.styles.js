@@ -3,14 +3,23 @@ import { colors } from '../../constants/colors';
 
 export default styles = StyleSheet.create({
     container:{
+        flexDirection: 'row',
+        justifyContent: 'space-around',
         backgroundColor: colors.red,
-        height: 80,
+        height: 70,
         width: '100%',
-        justifyContent: 'center',
-        alignItems: 'center',
+        marginBottom: 30,
+        marginTop: 0,
+        },
+    buttonExit:{
+        marginTop: 20,
+        marginBottom:25,
     },
     text:{
         fontSize: 30,
         fontFamily: 'Arimo',
+        marginTop: 18,
+        fontWeight: 'bold',
+        marginRight: 20,
     },
 })

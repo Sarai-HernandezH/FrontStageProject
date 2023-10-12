@@ -16,22 +16,24 @@ import { useGetProductsByCategoryQuery } from '../../services/shopApi';
 const Products = ({ navigation }) => {
     const category = useSelector(state => state.shop.categorySelected)
     const [keyword, setKeyword] = useState('')
+    const [products, setProducts] = useState([])
     const { data, isLoading } = useGetProductsByCategoryQuery(category)
 
-
-   /* useEffect(() => {
-        console.log(data)
-        if (data) {
-            const productsFiltered = data.filter(
-                product => product.title.includes(keyword)
+    useEffect(() => {
+        console.log(data, isLoading)
+        if (!isLoading) {
+            const dataArr = Object.values(data)
+            setProducts(dataArr)
+            const productsFiltered = dataArr.filter(product =>
+                product.title.includes(keyword)
             )
-            
-        } 
-    }, [])*/
+            setProducts(productsFiltered)
+        }
+    }, [isLoading, keyword])
 
     return (
         <SafeAreaView style={styles.container}>
-            <Header title={category} />
+            <Header navigation={navigation} title={category} />
             <SearchInput onSearch={setKeyword} />
             <View>
                 {!isLoading && (

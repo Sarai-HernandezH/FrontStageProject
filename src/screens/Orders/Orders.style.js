@@ -5,6 +5,5 @@ export default styles = StyleSheet.create({
     container:{
         flex:1,
         backgroundColor: colors.grey,
-        marginTop: 50,
     },
 });
