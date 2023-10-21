@@ -4,8 +4,6 @@ import { colors } from '../../constants/colors';
 export default styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor: colors.white,
-        marginTop: 20,
     },
     loginContainer:{
         width: '100%',
@@ -13,9 +11,17 @@ export default styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
     },
+    image: {
+        flex: 1,
+        width: '100%',
+        height: '100%',
+        resizeMode: 'cover'
+    },
     inputEmail:{
         width: '95%',
-        height: 30,
+        height: 40,
+        paddingTop:20,
+        paddingLeft:10,
         backgroundColor: colors.grey,
         marginVertical: 15,
         justifyContent: 'center',
@@ -45,6 +51,13 @@ export default styles = StyleSheet.create({
         color: colors.black,
         fontSize: 15,
         marginBottom: -10,
+        fontWeight: 'bold',
+    },
+    loginWhite:{
+        fontFamily: 'Arimo',
+        color:colors.white,
+        fontWeight: 'bold',
+        fontSize:15,
     },
     guestContainer:{
         marginVertical: 50,

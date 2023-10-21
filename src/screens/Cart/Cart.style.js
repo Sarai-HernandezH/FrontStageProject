@@ -8,4 +8,27 @@ export default styles = StyleSheet.create({
         marginTop: 0,
         width: '100%'
     },
+    imageBackground: {
+        flex: 1,
+        width: '100%',
+        height: '100%',
+        resizeMode: 'cover'
+    },
+    textCart:{
+        color: colors.white,
+        fontFamily: 'Arimo',
+        fontWeight: 'bold',
+        fontSize: 20,
+    },
+    textConfirm:{
+        backgroundColor: colors.black,
+        borderRadius: 5,
+        color: colors.red,
+        fontFamily: 'Arimo',
+        fontWeight: 'bold',
+        fontSize: 20,
+        marginHorizontal: '100px',
+        alignSelf: 'center',
+        width: '50px'
+    }
 });

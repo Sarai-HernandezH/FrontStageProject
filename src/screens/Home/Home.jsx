@@ -1,30 +1,35 @@
-import { FlatList, SafeAreaView, View, StatusBar } from 'react-native'
-import { Header } from '../../components'
+import { FlatList, SafeAreaView, View, StatusBar, ImageBackground } from 'react-native'
+import { BackButton, Header } from '../../components'
 import { CategoryItem } from './components'
 import React from 'react'
 import { useGetCategoriesQuery } from '../../services/shopApi'
 import styles from './Home.style'
 
+const image = { uri: "https://media.istockphoto.com/id/1093670728/photo/music-store.jpg?s=612x612&w=0&k=20&c=NxN-B71lEsD6Tsn-xrJuW8RQyf-h80JUkjWdzCCdxE8=" }
+
 const Home = ({ navigation }) => {
     const { data, isLoading } = useGetCategoriesQuery()
     return (
         <SafeAreaView style={styles.container}>
-            <StatusBar animated={true} barStyle={'dark-content'} />
-            <Header navigation={navigation} title={'Our Products'} />
-            <View style={styles.listContainer}>
-                {!isLoading && (
-                <FlatList                
-                    data={data}
-                    keyExtractor={category => category.title}
-                    renderItem={({ item }) => (
-                        <CategoryItem
-                            category={item.title}
-                            navigation={navigation}
+            <ImageBackground source={image} style={styles.imageBackground} >
+                <StatusBar animated={true} barStyle={'dark-content'} />
+                <Header navigation={navigation} title={'Our Products'} />
+                <BackButton />
+                <View style={styles.listContainer}>
+                    {!isLoading && (
+                        <FlatList
+                            data={data}
+                            keyExtractor={category => category.title}
+                            renderItem={({ item }) => (
+                                <CategoryItem
+                                    category={item.title}
+                                    navigation={navigation}
+                                />
+                            )}
                         />
                     )}
-                />
-                )}
-            </View>
+                </View>
+            </ImageBackground>
         </SafeAreaView>
     )
 }

@@ -8,6 +8,12 @@ export default styles = StyleSheet.create({
         marginVertical: 50,
         marginBottom: 20,
     },
+    imageBackground: {
+        flex: 1,
+        width: '100%',
+        height: '100%',
+        resizeMode: 'cover'
+    },
     profileContainer:{
         flex:1,
         backgroundColor: colors.grey,
@@ -23,6 +29,8 @@ export default styles = StyleSheet.create({
     image: {
         width: 200,
         height: 200,
+        borderRadius:5,
+        borderColor: colors.grey
     },
     cameraButton: {
         backgroundColor: colors.black,

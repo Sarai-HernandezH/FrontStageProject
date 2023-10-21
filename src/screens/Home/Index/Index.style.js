@@ -4,36 +4,51 @@ import { colors } from '../../../constants/colors';
 export default styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor: colors.grey,
+    },
+    image: {
+        flex: 1,
+        width: '100%',
+        height: '100%',
+        resizeMode: 'cover'
     },
     titleText:{
         textAlign: 'center',
-        fontFamily: 'Poppins',
+        fontFamily: 'PoppinsBold',
         fontSize: 30,
-        marginBottom: 30,
-        marginVertical: 45,
+        marginBottom: 25,
+        marginVertical: 20,
         color: colors.red,
+        position: 'relative',
+        backgroundColor: colors.black,
+        marginHorizontal: 70,
+        borderRadius: 8,
     },
     introText:{
         textAlign: 'center',
         marginHorizontal: 20,
         fontSize: 17,
-        fontFamily: 'Arimo'
+        fontFamily: 'Arimo',
+        borderRadius: 8,
+        fontWeight: '900',
     },
     homeContainer:{
-        paddingHorizontal: 10,
+        marginLeft: 50,
+        marginRight: 50,        
         backgroundColor: colors.grey,
-
+        borderRadius: 8,
     },
     homeContainerTwo : {
-        paddingHorizontal: 10,
-        marginTop: 40,
+        marginTop: 20,
+        marginLeft: 50,
+        marginRight: 50,        
         backgroundColor: colors.grey,
-    },
+        borderRadius: 8,
+},
     navigationText:{
-        color: colors.red,
+        color: colors.white,
         textAlign: 'center',
         fontSize: 19,
         fontFamily: 'Arimo',
+        fontWeight: 'bold'
     }
 });

@@ -1,4 +1,4 @@
-import { Text, View, TouchableOpacity, Pressable } from 'react-native'
+import { Text, View, Pressable } from 'react-native'
 import React from 'react'
 import LogoIcon from '../../assets/images/logo'
 import { AntDesign } from '@expo/vector-icons'

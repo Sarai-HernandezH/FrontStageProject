@@ -4,9 +4,11 @@ import { colors } from "../../constants/colors";
 export default styles = StyleSheet.create({
     container:{
         flex: 1,
+        height: '100%'
     },
     productContainer:{
         width: '45%',
+        resizeMode: 'cover',
         backgroundColor: colors.red,
         marginBottom: 20,
         marginLeft:8,
@@ -17,23 +19,25 @@ export default styles = StyleSheet.create({
         borderRadius: 10,
         gap: 10,
     },
+    imageBackground: {
+        flex: 1,
+        width: '100%',
+        height: '100%',
+        resizeMode: 'cover'
+    },
     itemsList:{
         color: colors.white,
         fontSize: 10,
         fontFamily: 'PoppinsSemiBoldItalic', 
         alignSelf: 'center',
-        marginTop: 15,
+        marginTop: 5,
         shadowColor: colors.white,
-        shadowOffset: {height: 5, width: 3},
-        elevation: 10,
-        shadowOpacity: 1,
-        shadowRadius: 1,
         borderRadius: 2,
         flexDirection: 'row',
     },
     image:{
-        width:150,
-        height:150,
+        width:100,
+        height:100,
         alignSelf: 'center'
     },
     wrapperStyle:{

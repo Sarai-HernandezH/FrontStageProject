@@ -5,11 +5,11 @@ export default styles = StyleSheet.create({
     container:{
         flexDirection: 'row',
         justifyContent: 'space-around',
-        backgroundColor: colors.red,
         height: 70,
         width: '100%',
-        marginBottom: 30,
+        marginBottom: 20,
         marginTop: 0,
+        backgroundColor: colors.red,
         },
     buttonExit:{
         marginTop: 20,

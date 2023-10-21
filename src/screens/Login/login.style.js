@@ -5,7 +5,13 @@ export default styles = StyleSheet.create({
     container:{
         flex:1,
         backgroundColor: colors.white,
-        marginTop: 20,
+        marginTop: 15,
+    },
+    image: {
+        flex: 1,
+        width: '100%',
+        height: '100%',
+        resizeMode: 'cover'
     },
     loginContainer:{
         width: '100%',
@@ -45,5 +51,6 @@ export default styles = StyleSheet.create({
         color: colors.black,
         fontSize: 15,
         marginBottom: -10,
+        fontWeight: 'bold',
     }
 });

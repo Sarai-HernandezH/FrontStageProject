@@ -3,13 +3,7 @@ import { colors } from '../../../constants/colors';
 
 export default styles = StyleSheet.create({
     container: {
-        flex: 1,
-        borderBottomWidth: 1,
-        borderBottomColor: colors.red,
-    },
-    name: {
-        fontSize: 18,
-        fontFamily: 'PoppinsSemiBoldItalic',
+        borderBottomWidth: 5,
     },
     image: {
         width: 50,
@@ -21,6 +15,18 @@ export default styles = StyleSheet.create({
         flexWrap: 'wrap',
         alignItems: 'center',
         justifyContent: 'space-between',
+        fontFamily: 'PoppinsItalic',
+        backgroundColor: colors.black
+    },
+    textCartItem:{
+        color: colors.white,
+        backgroundColor: colors.black,
+        fontWeight: 'bold',
+        fontSize: 15,
         fontFamily: 'PoppinsItalic'
     },
+    textCartItemT:{
+        color: colors.white,
+        fontFamily: 'Arimo'
+    }
 });

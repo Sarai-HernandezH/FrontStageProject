@@ -1,13 +1,17 @@
 import { StyleSheet } from 'react-native';
-import { colors } from '../../constants/colors';
 
 export default styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor: colors.grey,
+
     },
     listContainer:{
-        backgroundColor: colors.grey,
-        paddingHorizontal: 17,
+        paddingHorizontal: 20,
+    },
+    imageBackground: {
+        flex: 1,
+        width: '100%',
+        height: '100%',
+        resizeMode: 'cover'
     },
 });

@@ -79,7 +79,5 @@ export default BottomTabNavigator
 const styles = StyleSheet.create({
     tabBar: {
         backgroundColor: colors.black,
-        borderTopRightRadius: 25,
-        borderTopLeftRadius: 25,
     },
 });

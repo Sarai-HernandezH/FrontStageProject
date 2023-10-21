@@ -7,15 +7,30 @@ export default styles = StyleSheet.create({
         height: '100%',
         backgroundColor: colors.grey,
     },
+    imageBackground: {
+        flex: 1,
+        width: '100%',
+        height: '100%',
+        resizeMode: 'cover'
+    },
     title:{
         fontSize: 18,
         fontFamily: 'PoppinsSemiBoldItalic',
-        textAlign: 'center'
+        textAlign: 'center',        
+        color: colors.white,
+        backgroundColor: colors.black,
+        marginHorizontal: 50,
+        borderRadius: 7,
+        marginBottom: 15,
+        marginTop: 10,
     },
     textDescription:{
         fontFamily: 'PoppinsSemiBoldItalic',
         fontSize: 13,
-        marginHorizontal: 10,
+        marginHorizontal: 20,
+        color: colors.white,
+        backgroundColor: colors.black,
+        borderRadius: 7,
         
     },
     imageContainer: {
@@ -27,13 +42,15 @@ export default styles = StyleSheet.create({
     image:{
         height:'100%',
         width:'80%',
-        alignSelf:'center'
+        alignSelf:'center',
+        borderRadius:5,
     },
     price:{
         fontSize:18,
         fontWeight: 'bold',
         marginVertical: 10,
         marginLeft:10,
+        color: colors.white,
     },
     addToCartButton:{
         backgroundColor: colors.black,

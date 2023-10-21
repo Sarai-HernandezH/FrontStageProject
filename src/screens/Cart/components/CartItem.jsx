@@ -1,14 +1,19 @@
 import { View, Text, Pressable, Image } from 'react-native'
+import { useDispatch, useSelector } from 'react-redux'
 import React from 'react'
 import styles from './CartItem.style'
 import Entypo from '@expo/vector-icons/Entypo'
-import { Header } from '../../../components'
+import { removeItem } from '../../../features/cart/cartSlice'
 
+const CartItem = ({ item }) => {
 
-const CartItem = ({navigation, item}) => {
+    const dispatch = useDispatch();
+    
+    const handleRemoveItem = (itemId) => {
+        dispatch(removeItem({ id: itemId }));
+    }
     return (
         <View style={styles.container}>
-            <Header navigation={navigation} title={"Cart"} />
             <View>
                 <Image
                     style={styles.image}
@@ -18,15 +23,15 @@ const CartItem = ({navigation, item}) => {
                 />
             </View>
             <View>
-                <Text style={styles.name}>{item.title}</Text>
+                <Text style={styles.textCartItem}>{item.title}</Text>
             </View>
             <View style={styles.details}>
                 <View>
-                    <Text>{item.quantity}</Text>
-                    <Text>{item.price}</Text>
+                    <Text style={styles.textCartItemT}>Quantity: {item.quantity}</Text>
+                    <Text style={styles.textCartItemT}>Price: {item.price}</Text>
                 </View>
-                <Pressable>
-                    <Entypo name={'trash'} size={24} color={'#E5383B'}/>
+                <Pressable onClick={() => handleRemoveItem(item.id)} >
+                    <Entypo name={'trash'} size={24} color={'#E5383B'} />
                 </Pressable>
             </View>
         </View>

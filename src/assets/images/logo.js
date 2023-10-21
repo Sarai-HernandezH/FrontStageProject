@@ -8,8 +8,8 @@ function LogoIcon() {
             source={Logo}
             style={{
                 width:100, 
-                height:60, 
-                marginTop: 5,
+                height:50, 
+                marginTop: 14,
                 marginLeft:-5,
             }}
         />
