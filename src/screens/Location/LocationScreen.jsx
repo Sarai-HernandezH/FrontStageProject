@@ -1,10 +1,10 @@
-import { View, Text } from 'react-native'
+import { View, Text, ImageBackground } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import styles from './LocationScreen.style'
 import * as Location from 'expo-location'
-import { MapPreview } from '../../components'
+import { BackButton, Header, MapPreview } from '../../components'
 
-const LocationScreen = () => {
+const LocationScreen = ({navigation}) => {
     const [location, setLocation] = useState({ latitude: '', longitude: '' })
     const [error, setError] = useState('')
 
@@ -21,22 +21,27 @@ const LocationScreen = () => {
                 latitude: location?.coords.latitude,
                 longitude: location?.coords.longitude,
             })
-            console.log('this is my location.')
         })()
     }, [])
 
+    const imageB = { uri: "https://media.istockphoto.com/id/1093670728/photo/music-store.jpg?s=612x612&w=0&k=20&c=NxN-B71lEsD6Tsn-xrJuW8RQyf-h80JUkjWdzCCdxE8=" }
+
     return (
         <View style={styles.container}>
-            <Text>My Location</Text>
+            <ImageBackground source={imageB} style={styles.imageBackground} >
+            <Header navigation={navigation} title={"Location"} />
+            <BackButton />
+            <Text style={styles.locationText}>My Location</Text>
             {location ? (
-                <View style={styles.withoutLocation}>
-                    <Text>Lat: {location.latitude}, Longitude: {location.longitude}</Text>
+                <View>
+                    <Text style={styles.withoutLocationText}>Lat: {location.latitude}, Longitude: {location.longitude}</Text>
                     <MapPreview location={{location}}/>
                 </View>
-            ) : (<View style={styles.withoutLocation}>
+            ) : (<View>
                 <Text>{error}</Text>
             </View>
             )}
+            </ImageBackground>
         </View>
     )
 }

@@ -28,6 +28,7 @@ export default styles = StyleSheet.create({
         fontWeight: 'bold',
         fontSize: 20,
         marginHorizontal: '100px',
+        padding: 10,
         alignSelf: 'center',
         width: '50px'
     }

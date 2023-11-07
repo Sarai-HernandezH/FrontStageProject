@@ -1,4 +1,4 @@
-import { FlatList, SafeAreaView, View, StatusBar, ImageBackground } from 'react-native'
+import { FlatList, SafeAreaView, View, ImageBackground } from 'react-native'
 import { BackButton, Header } from '../../components'
 import { CategoryItem } from './components'
 import React from 'react'
@@ -12,7 +12,6 @@ const Home = ({ navigation }) => {
     return (
         <SafeAreaView style={styles.container}>
             <ImageBackground source={image} style={styles.imageBackground} >
-                <StatusBar animated={true} barStyle={'dark-content'} />
                 <Header navigation={navigation} title={'Our Products'} />
                 <BackButton />
                 <View style={styles.listContainer}>

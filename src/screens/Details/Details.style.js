@@ -33,6 +33,19 @@ export default styles = StyleSheet.create({
         borderRadius: 7,
         
     },
+    messageContainer:{
+        backgroundColor: colors.black,
+        alignSelf: 'center',
+        borderRadius: 7,
+        marginBottom: 80,
+    },
+    messageText:{
+        fontFamily: 'Arimo',
+        fontWeight: 'bold',
+        color: colors.red,
+        fontSize: 18,
+        padding: 10,
+    },
     imageContainer: {
         justifyContent: 'center',
         height: '45%',

@@ -16,22 +16,13 @@ export const shopApi = createApi({
                 `products.json?orderBy="category"&equalTo="${category}"`
         }),
         getOrders: builder.query({
-            query: () => `orders.json`
+            query: () => `orders.json`,
         }),
         postOrder: builder.mutation({
-            query: (order) => ({
-                url: 'orders.json',
+            query: ({ ...order}) => ({
+                url: `orders.json`,
                 method: 'POST',
-                body: {
-                    total: order.total,
-                    user: order.user,
-                    items: order.order.map(item => ({
-                        id: item.id,
-                        name: item.title, // Include the product name (assuming 'title' is the name)
-                        quantity: item.quantity,
-                        // Add other relevant properties
-                    })),
-                },
+                body: order,
             }),
         }),
         getProfileImage: builder.query({

@@ -13,13 +13,16 @@ export const authSlice = createSlice({
     reducers:{
         setUser: (state, action) => {
             return{
+                ...state,
                 user: action.payload.email,
                 token: action.payload.idToken,
                 localId: action.payload.localId,
             }
         },
-        clearUser: () => {
-            return {user: null, token: null, localId: null}
+        signOut: (state) => {
+            state.user = null;
+            state.token = null;
+            state.localId = null;
         },
         setCameraImage: (state, action) =>{
             return{
@@ -30,6 +33,6 @@ export const authSlice = createSlice({
     },
 })
 
-export const {setUser, clearUser, setCameraImage} = authSlice.actions
+export const {setUser, signOut, setCameraImage} = authSlice.actions
 
 export default authSlice.reducer

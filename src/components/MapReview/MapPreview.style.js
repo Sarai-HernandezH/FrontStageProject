@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-import { colors } from '../../constants/colors';
 
 export default styles = StyleSheet.create({
     mapPreview:{
@@ -8,7 +7,8 @@ export default styles = StyleSheet.create({
 
     },
     mapImage:{
-        width:300,
-        height:300
+        width:250,
+        height:200,
+        borderRadius: 5,
     },
 })

@@ -2,9 +2,9 @@ import Products from './Products/Products';
 import Home from './Home/Home'
 import Details from './Details/Details';
 import Cart from './Cart/Cart';
-import Orders from './Orders/Orders';
-import Login from './Login/Login';
+import OrderConfirmation from './OrderConfirmation/OrderConfirmation';
 import SignIn from './SignIn/SignIn';
+import Login from './Login/Login';
 import Profile from './Profile/Profile';
 import LocationScreen from './Location/LocationScreen';
 import Index from './Home/Index/Index';
@@ -14,9 +14,9 @@ export {
     Home, 
     Details, 
     Cart, 
-    Orders, 
-    Login, 
+    OrderConfirmation,  
     SignIn, 
+    Login,
     Profile, 
     LocationScreen,
     Index

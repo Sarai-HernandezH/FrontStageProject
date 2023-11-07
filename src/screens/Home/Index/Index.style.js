@@ -13,7 +13,7 @@ export default styles = StyleSheet.create({
     },
     titleText:{
         textAlign: 'center',
-        fontFamily: 'PoppinsBold',
+        fontFamily: 'PoppinsSemiBoldItalic',
         fontSize: 30,
         marginBottom: 25,
         marginVertical: 20,

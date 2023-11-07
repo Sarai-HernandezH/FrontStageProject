@@ -1,10 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    user: 'userLogged',
     updatedAt: Date.now().toLocaleString(),
     total: 0,
-    items: [],
+    items: []
 }
 
 export const cartSlice = createSlice({
@@ -23,7 +22,6 @@ export const cartSlice = createSlice({
                     total: state.total + action.payload.price,
                     updatedAt: new Date().toLocaleString(),
                 }
-
             const itemsUpdated = products.map(item => {
                 if (item.id === action.payload.id) {
                     return Object.assign({}, item, {
@@ -40,30 +38,32 @@ export const cartSlice = createSlice({
             }
         },
         removeItem: (state, action) => {
-            const indexToRemove = state.items.findIndex(item => item.id === action.payload.id);
-
-            if (indexToRemove !== -1) {
-                console.log('Item found and removed:', action.payload.id);
-                state.items.splice(indexToRemove, 1);
-
-                // After removing the item, you can log the updated items for debugging
-                console.log('Updated items:', state.items);
-
-                state.items = state.items.filter(item => item.id !== action.payload.id);
-
-                // Log the items after using filter
-                console.log('Updated items after filter:', state.items);
-
-                state.total = state.items.reduce(
-                    (acc, currentItem) => acc += currentItem.price * currentItem.quantity,
-                    0
-                );
-                state.updatedAt = new Date().toLocaleString();
+            const productIdToRemove = action.payload.id;
+            const productToRemove = state.items.find(item => item.id === productIdToRemove)
+            
+            if (!productToRemove) {
+                return state;             
             }
+            const totalCostToRemove = productToRemove.price * productToRemove.quantity;
+            const updatedItems = state.items.filter(item => item.id !== productIdToRemove)
+            return {
+                ...state,
+                items: updatedItems,
+                total: state.total - totalCostToRemove,
+                updatedAt: new Date().toLocaleString(),
+            }
+        },
+        clearCart: (state) => {
+            return {
+                ...state,
+                items: [],
+                total: 0,
+                updatedAt: Date.now().toLocaleString(),
+            };
         },
     },
 })
 
-export const { addItem, removeItem } = cartSlice.actions
+export const { addItem, removeItem, clearCart } = cartSlice.actions
 
 export default cartSlice.reducer

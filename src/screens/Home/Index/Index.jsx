@@ -1,17 +1,21 @@
 import React from 'react'
 import { SafeAreaView, View, Pressable, Text, ImageBackground } from 'react-native'
 import styles from './Index.style'
-import { Header } from '../../../components'
-import { Fontisto } from '@expo/vector-icons';
+import { Fontisto } from '@expo/vector-icons'
+
+
 
 const image = { uri: "https://media.istockphoto.com/id/1093670728/photo/music-store.jpg?s=612x612&w=0&k=20&c=NxN-B71lEsD6Tsn-xrJuW8RQyf-h80JUkjWdzCCdxE8=" }
 
-const Index = ({ navigation }) => {
+const Index = ({navigation}) => {
+
+    const onSubmit = () => {
+            navigation.navigate('SignIn')
+    }
 
     return (
         <SafeAreaView style={styles.container}>
             <ImageBackground source={image} style={styles.image} >
-                <Header navigation={navigation} title={'Home'} />
                 <View>
                     <Text style={styles.titleText}> Front Stage Store</Text>
                 </View>
@@ -28,7 +32,7 @@ const Index = ({ navigation }) => {
                     </Text>
                 </View>
                 <View style={styles.homeContainerTwo}>
-                    <Pressable onPress={() => navigation.navigate('Registration')} >
+                    <Pressable onPress={onSubmit} >
                         <Text style={styles.navigationText}>
                             Click here and Check all of our products available!
                         </Text>

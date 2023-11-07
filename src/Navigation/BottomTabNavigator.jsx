@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import StackNavigator from './StackNavigator';
 import CartNavigator from './CartNavigator';
 import Entypo from '@expo/vector-icons/Entypo'
-import OrdersNavigator from './OrdersNavigator';
+import OrderConfirmationNavigator from './OrderConfirmationNavigator';
 import ProfileNavigator from './ProfileNavigator';
 
 const BottomTab = createBottomTabNavigator()
@@ -45,12 +45,12 @@ function BottomTabNavigator() {
                 }}
             />
             <BottomTab.Screen
-                name='OrdersNav'
-                component={OrdersNavigator}
+                name="OrdersNav"
+                component={OrderConfirmationNavigator}
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <Entypo
-                            name={"add-to-list"}
+                            name="list"
                             size={24}
                             color={focused ? colors.red : colors.white}
                         />

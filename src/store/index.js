@@ -1,10 +1,11 @@
-import { configureStore } from '@reduxjs/toolkit'
-import { setupListeners } from '@reduxjs/toolkit/dist/query'
-import { shopApi } from '../services/shopApi'
-import shopSlice from '../features/shop/shopSlice'
-import cartSlice from '../features/cart/cartSlice'
-import { authApi } from '../services/authApi'
-import authSlice from '../features/auth/authSlice'
+import { configureStore } from '@reduxjs/toolkit';
+import { setupListeners } from '@reduxjs/toolkit/query';
+import { shopApi } from '../services/shopApi';
+import shopSlice from '../features/shop/shopSlice';
+import cartSlice from '../features/cart/cartSlice';
+import { authApi } from '../services/authApi';
+import authSlice from '../features/auth/authSlice';
+import { userProfileApi } from '../services/userProfileApi'; 
 
 const store = configureStore({
     reducer: {
@@ -13,11 +14,12 @@ const store = configureStore({
         auth: authSlice,
         [shopApi.reducerPath]: shopApi.reducer,
         [authApi.reducerPath]: authApi.reducer,
+        [userProfileApi.reducerPath]: userProfileApi.reducer, 
     },
     middleware: getDefaultMiddleware =>
-        getDefaultMiddleware().concat(shopApi.middleware, authApi.middleware),
-})
+        getDefaultMiddleware().concat(shopApi.middleware, authApi.middleware, userProfileApi.middleware), 
+});
 
-setupListeners(store.dispatch)
+setupListeners(store.dispatch);
 
-export default store
+export default store;

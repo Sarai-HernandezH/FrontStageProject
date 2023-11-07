@@ -9,17 +9,19 @@ import {
 } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import styles from './Products.style';
-import { BackButton, Header} from '../../components'
-import { useSelector } from 'react-redux';
+import { BackButton, Header } from '../../components'
+import { useSelector, useDispatch } from 'react-redux';
 import { useGetProductsByCategoryQuery } from '../../services/shopApi';
-
+import { setUser } from '../../features/auth/authSlice'
 
 
 const Products = ({ navigation }) => {
     const category = useSelector(state => state.shop.categorySelected)
-    const [keyword, setKeyword] = useState('')
+    const [keyword] = useState('')
     const [products, setProducts] = useState([])
     const { data, isLoading } = useGetProductsByCategoryQuery(category)
+    const { user, localId } = useSelector(state => state.auth)
+    const dispatch = useDispatch()
 
     useEffect(() => {
         console.log(data, isLoading)
@@ -33,6 +35,23 @@ const Products = ({ navigation }) => {
         }
     }, [isLoading, keyword])
 
+    useEffect(() => {
+        ; (async () => {
+            try {
+                const session = await fetchSession()
+                //console.log('Esta es la sesion', session)
+                if (session.rows.length) {
+                    const user = session.rows._array[0]
+                    console.log(session.rows._array[0])
+                    dispatch(setUser(user))
+                    console.log(user)
+                }
+            } catch (error) {
+                //console.log('Error en obtener ususario', error.message)
+            }
+        })()
+    }, [])
+
     const image = { uri: "https://media.istockphoto.com/id/1093670728/photo/music-store.jpg?s=612x612&w=0&k=20&c=NxN-B71lEsD6Tsn-xrJuW8RQyf-h80JUkjWdzCCdxE8=" }
 
     return (
@@ -40,10 +59,10 @@ const Products = ({ navigation }) => {
             <ImageBackground source={image} style={styles.imageBackground} >
                 <Header navigation={navigation} title={category} />
                 <BackButton />
-                <View>
+                <View style={styles.listContainer}>
                     {!isLoading && (
                         <FlatList
-                            data={Object.values(data)}
+                            data={products}
                             numColumns={2}
                             columnWrapperStyle={styles.wrapperStyle}
                             renderItem={({ item }) => (

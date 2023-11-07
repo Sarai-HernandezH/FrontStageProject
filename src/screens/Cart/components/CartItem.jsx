@@ -1,5 +1,5 @@
 import { View, Text, Pressable, Image } from 'react-native'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import React from 'react'
 import styles from './CartItem.style'
 import Entypo from '@expo/vector-icons/Entypo'
@@ -30,7 +30,7 @@ const CartItem = ({ item }) => {
                     <Text style={styles.textCartItemT}>Quantity: {item.quantity}</Text>
                     <Text style={styles.textCartItemT}>Price: {item.price}</Text>
                 </View>
-                <Pressable onClick={() => handleRemoveItem(item.id)} >
+                <Pressable onPress={() => handleRemoveItem(item.id)} >
                     <Entypo name={'trash'} size={24} color={'#E5383B'} />
                 </Pressable>
             </View>

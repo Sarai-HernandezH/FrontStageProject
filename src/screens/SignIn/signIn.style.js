@@ -40,33 +40,25 @@ export default styles = StyleSheet.create({
         alignItems: 'center'
     },
     loginText:{
-        color: colors.black,
-        alignSelf: 'center',
+        color: colors.white,
+        textAlign: 'center',
         fontFamily: 'Arimo',
         fontSize: 18,
         fontWeight: 'bold',
     },
+    loginText1:{
+        color: colors.white,
+        textAlign: 'center',
+        fontFamily: 'Arimo',
+        fontSize: 18,
+        fontWeight: 'bold',
+        marginTop:70,
+    },
     signInText:{
         fontFamily: 'Arimo',
         color: colors.black,
-        fontSize: 15,
+        fontSize: 17,
         marginBottom: -10,
         fontWeight: 'bold',
-    },
-    loginWhite:{
-        fontFamily: 'Arimo',
-        color:colors.white,
-        fontWeight: 'bold',
-        fontSize:15,
-    },
-    guestContainer:{
-        marginVertical: 50,
-    },
-    guestButton:{
-        backgroundColor: colors.red,
-        height: 50,
-        borderRadius: 10,
-        justifyContent:'center',
-        alignItems: 'center',
     },
 });

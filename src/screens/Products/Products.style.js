@@ -4,21 +4,22 @@ import { colors } from "../../constants/colors";
 export default styles = StyleSheet.create({
     container:{
         flex: 1,
-        height: '100%'
     },
     productContainer:{
-        width: '45%',
+        width: '42%',
         resizeMode: 'cover',
         backgroundColor: colors.red,
-        marginBottom: 20,
-        marginLeft:8,
-        marginRight:8,
-        alignItems: 'flex-start',
+        marginBottom: 10,
+        marginLeft:14,
+        marginRight:14,
         paddingVertical: 10,
         paddingHorizontal: 8,
         borderRadius: 10,
-        gap: 10,
+        gap: 15,
     },
+    listContainer:{
+        flex: 1,
+    },  
     imageBackground: {
         flex: 1,
         width: '100%',
@@ -27,6 +28,7 @@ export default styles = StyleSheet.create({
     },
     itemsList:{
         color: colors.white,
+        height: 'cover',
         fontSize: 10,
         fontFamily: 'PoppinsSemiBoldItalic', 
         alignSelf: 'center',
@@ -35,12 +37,18 @@ export default styles = StyleSheet.create({
         borderRadius: 2,
         flexDirection: 'row',
     },
+    price:{
+        fontFamily: 'Arimo',
+        fontSize:15,
+    },
     image:{
         width:100,
         height:100,
-        alignSelf: 'center'
+        alignSelf: 'center',
+        borderRadius: 8,
     },
     wrapperStyle:{
+        
         justifyContent:'space-between',
     }
 })

@@ -1,5 +1,5 @@
 import { Image, Text, SafeAreaView, View, Pressable, ImageBackground } from 'react-native'
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Details.style'
 import { useDispatch } from 'react-redux'
 import { addItem } from '../../features/cart/cartSlice'
@@ -12,8 +12,15 @@ const Details = ({ route, navigation }) => {
     const { product } = route.params
     const dispatch = useDispatch()
 
+    const [showMessage, setShowMessage] = useState(false)
+
     const handleAddToCart = () => {
         dispatch(addItem({ ...product, quantity: 1 }))
+        setShowMessage(true)
+
+        setTimeout(() => {
+            setShowMessage(false);
+        }, 1500);
     }
     return (
         <SafeAreaView style={styles.container}>
@@ -32,6 +39,11 @@ const Details = ({ route, navigation }) => {
                 <Pressable onPress={handleAddToCart} style={styles.addToCartButton}>
                     <Text style={styles.addText}>Add to cart. <MaterialCommunityIcons name="cart-arrow-down" size={24} color="red" /></Text>
                 </Pressable>
+                {showMessage && (
+                    <View style={styles.messageContainer}>
+                        <Text style={styles.messageText}>The product has been added to the cart.</Text>
+                    </View>
+                )}
             </ImageBackground>
         </SafeAreaView>
     )

@@ -1,16 +1,17 @@
-import { View, Text, Pressable, Image, ImageBackground } from 'react-native'
+import { View, Text, Pressable, Image, ImageBackground, Alert } from 'react-native'
 import styles from './Profile.style'
 import * as ImagePicker from 'expo-image-picker'
 import { useDispatch, useSelector } from 'react-redux'
 import { setCameraImage } from '../../features/auth/authSlice'
 import { usePostProfileImageMutation } from '../../services/shopApi'
 import { BackButton, Header } from '../../components'
-import { Entypo } from '@expo/vector-icons'
-import { AntDesign } from '@expo/vector-icons'
+import { Entypo, MaterialCommunityIcons } from '@expo/vector-icons'
+import { deleteSession } from '../../db'
+import { signOut } from '../../features/auth/authSlice'
 
 const Profile = ({ navigation }) => {
     const image = useSelector(state => state.auth.imageCamera)
-    const { localId } = useSelector(state => state.auth)
+    const localId = useSelector(state => state.auth.localId)
     const [triggerSaverProfileImage, result] = usePostProfileImageMutation()
     const dispatch = useDispatch()
 
@@ -44,6 +45,32 @@ const Profile = ({ navigation }) => {
     const confirmImage = () => {
         triggerSaverProfileImage({ image, localId })
         console.log(result)
+    }
+
+    const deleteAccount = () => {
+        Alert.alert(
+            'Deletion Confirmation',
+            'Are you sure you want to delete your account??',
+            [
+                {
+                    text: 'Cancel',
+                    style: 'cancel',
+                },
+                {
+                    text: 'Delete',
+                    onPress: () => {
+                        deleteSession()
+                            .then(() => {
+                                dispatch(signOut())
+                                navigation.navigate('MainNav')
+                            })
+                            .catch((error) => {
+                                console.error('Failed to delete session:', error)
+                            })
+                    }
+                },
+            ]
+        );
     }
 
     const imageB = { uri: "https://media.istockphoto.com/id/1093670728/photo/music-store.jpg?s=612x612&w=0&k=20&c=NxN-B71lEsD6Tsn-xrJuW8RQyf-h80JUkjWdzCCdxE8=" }
@@ -90,17 +117,14 @@ const Profile = ({ navigation }) => {
                             <Text style={styles.locationText}>Check Location <Entypo name="location" size={24} color="red" /></Text>
                         </Pressable>
                     </View>
-                </View>
-                <View style={styles.registrationContainer}>
-                    <Text style={styles.locationText}>If you don't have an account click below to create one.</Text>
-                </View>
-                <View>
-                    <Pressable
-                        style={styles.buttonRegister}
-                        onPress={() => navigation.navigate('SignIn')}
-                    >
-                        <Text style={styles.registerText}>Register<AntDesign name="form" size={24} color="white" /></Text>
-                    </Pressable>
+                    <View>
+                        <Pressable
+                            style={styles.buttonDeleteAccount}
+                            onPress={() => deleteAccount()}
+                        >
+                            <Text style={styles.locationText}>Delete account <MaterialCommunityIcons name="account-cancel" size={24} color="red" /></Text>
+                        </Pressable>
+                    </View>
                 </View>
             </ImageBackground>
         </View>

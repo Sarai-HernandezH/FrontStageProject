@@ -1,38 +1,35 @@
-import { View, Text, TextInput, Pressable, SafeAreaView, ImageBackground } from 'react-native'
-import React, { useState } from 'react'
+import { View, Text, TextInput, Pressable, SafeAreaView, ImageBackground, Alert } from 'react-native'
+import React, { useState, useEffect } from 'react'
 import styles from './signIn.style'
 import { useSignUpMutation } from '../../services/authApi'
-import { navigateToBottomTabNavigator } from '../../Navigation/CustomNavigation'
 import { useDispatch } from 'react-redux'
 import { setUser } from '../../features/auth/authSlice'
 import { Header } from '../../components'
-import { MaterialCommunityIcons } from '@expo/vector-icons'
+
 
 const SignIn = ({ navigation }) => {
     const [email, setEmail] = useState('')
+    const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
     const [confirmPass, setConfirmPass] = useState('')
-    const [triggerSignIn, result] = useSignUpMutation()
+    const [triggerSignup] = useSignUpMutation()
     const dispatch = useDispatch()
 
-
     const onSubmit = () => {
-        console.log('Login button')
-        triggerSignIn({
+        triggerSignup({
+            username,
             email,
             password,
         })
             .unwrap()
             .then(result => {
-                console.log(result)
                 dispatch(setUser(result))
+                console.log(result)
             })
             .catch(err => console.log(err))
-
+            Alert.alert('Welcome!');
+            navigation.navigate('Bottom', {username})
     }
-    const handleContinueAsGuest = () => {
-        navigation.dispatch(navigateToBottomTabNavigator());
-    };
 
     const image = { uri: "https://media.istockphoto.com/id/1093670728/photo/music-store.jpg?s=612x612&w=0&k=20&c=NxN-B71lEsD6Tsn-xrJuW8RQyf-h80JUkjWdzCCdxE8=" }
 
@@ -41,7 +38,14 @@ const SignIn = ({ navigation }) => {
             <ImageBackground source={image} style={styles.image} >
                 <Header navigation={navigation} title={'Sign Up'} />
                 <View style={styles.loginContainer}>
-                    <Text style={styles.loginWhite}>Sign in to Start</Text>
+                    <Text style={styles.loginText}>To pay or Safe your cart you need to create an account.</Text>
+                    <Text style={styles.loginText1}>Sign in to Start</Text>
+                    <TextInput
+                        style={styles.inputEmail}
+                        value={username}
+                        onChangeText={setUsername}
+                        placeholder="Enter Username"
+                    />
                     <TextInput
                         style={styles.inputEmail}
                         value={email}
@@ -65,17 +69,13 @@ const SignIn = ({ navigation }) => {
                     <Pressable style={styles.loginButton} onPress={onSubmit}>
                         <Text style={styles.loginText}>Sign in</Text>
                     </Pressable>
-                    <Text style={styles.signInText}>Already have an account?</Text>
-                    <Pressable style={styles.loginButton} onPress={() => navigation.navigate("Login")}>
+                    <Text style={styles.loginText}>Already have an account?</Text>
+                    <Pressable
+                        style={styles.loginButton}
+                        onPress={() => navigation.navigate('Login')}
+                    >
                         <Text style={styles.loginText}>Login</Text>
                     </Pressable>
-                    <View style={styles.guestContainer}>
-                        <Text style={styles.loginWhite}> Would you like to continue as a guest?</Text>
-                        <Pressable style={styles.guestButton} onPress={handleContinueAsGuest}>
-                            <Text style={styles.loginText}>Click here</Text>
-                            <MaterialCommunityIcons name="forward" size={24} color="black" />
-                        </Pressable>
-                    </View>
                 </View>
             </ImageBackground>
         </SafeAreaView>

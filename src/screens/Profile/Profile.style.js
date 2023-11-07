@@ -63,6 +63,13 @@ export default styles = StyleSheet.create({
         fontSize: 17,
         margin: 4,
         alignSelf: 'center',
+    },
+    buttonDeleteAccount:{
+        backgroundColor: colors.black,
+        height:40,
+        width: 150,
+        marginTop: 20,
+        borderRadius: 5,
     }
 
 })

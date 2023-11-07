@@ -4,10 +4,8 @@ import { useFonts } from 'expo-font';
 import { NavigationContainer } from "@react-navigation/native";
 import { Provider } from 'react-redux';
 import store from './src/store';
-import { Index } from './src/screens';
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import BottomTabNavigator from './src/Navigation/BottomTabNavigator';
 import { init } from './src/db';
+import { AuthProvider } from './src/Context/AuthProvider';
 
 init()
   .then(() => console.log('DB initialized'))
@@ -20,30 +18,15 @@ export default function App() {
     return null
   }
 
-  const Stack = createNativeStackNavigator();
 
   return (
-    <Provider store={store}>
-      <NavigationContainer>
-        <Stack.Navigator initialRouteName="Landing">
-            <Stack.Screen
-              name="Landing"
-              component={Index}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="Registration"
-              component={MainNavigator}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="BottomTabNavigator"
-              component={BottomTabNavigator}
-              options={{ headerShown: false }}
-            />
-        </Stack.Navigator>
-      </NavigationContainer>
-    </Provider>
+    <AuthProvider>
+      <Provider store={store}>
+        <NavigationContainer>
+          <MainNavigator />
+        </NavigationContainer>
+      </Provider>
+    </AuthProvider>
   );
 }
 

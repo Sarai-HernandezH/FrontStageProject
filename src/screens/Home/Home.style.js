@@ -6,7 +6,9 @@ export default styles = StyleSheet.create({
 
     },
     listContainer:{
-        paddingHorizontal: 20,
+        flex: 1,
+        paddingHorizontal: 25,
+        marginBottom: 1,
     },
     imageBackground: {
         flex: 1,
