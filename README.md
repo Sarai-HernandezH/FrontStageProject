@@ -1,4 +1,4 @@
-# FrontStageProyect Music Store App README
+# FrontStageProject Music Store App README
 
 Hey there! I'm thrilled to introduce you to FrontStageProyect, my solo venture into the world of E-Commerce apps for educational purposes, specifically emulating a music store using React Native. Let's get you set up!
 
