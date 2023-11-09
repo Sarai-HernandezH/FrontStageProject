@@ -4,8 +4,10 @@ import { colors } from '../../../src/constants/colors';
 export default styles = StyleSheet.create({
     container:{
         flex: 1,
-        height: '100%',
-        backgroundColor: colors.grey,
+    },
+    detailsContainer:{
+        flex:1,
+        height: '100%'
     },
     imageBackground: {
         flex: 1,
@@ -46,15 +48,9 @@ export default styles = StyleSheet.create({
         fontSize: 18,
         padding: 10,
     },
-    imageContainer: {
-        justifyContent: 'center',
-        height: '45%',
-        width: '100%',
-        alignSelf: 'center',
-    },
     image:{
         height:'100%',
-        width:'80%',
+        width:'100%',
         alignSelf:'center',
         borderRadius:5,
     },

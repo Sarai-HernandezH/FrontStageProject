@@ -4,7 +4,9 @@ import styles from './Details.style'
 import { useDispatch } from 'react-redux'
 import { addItem } from '../../features/cart/cartSlice'
 import { BackButton, Header } from '../../components'
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons'
+import Swiper from 'react-native-swiper'
+
 
 const image = { uri: "https://media.istockphoto.com/id/1093670728/photo/music-store.jpg?s=612x612&w=0&k=20&c=NxN-B71lEsD6Tsn-xrJuW8RQyf-h80JUkjWdzCCdxE8=" }
 
@@ -23,16 +25,23 @@ const Details = ({ route, navigation }) => {
         }, 1500);
     }
     return (
-        <SafeAreaView style={styles.container}>
+        <View style={styles.container}>
+            <View style={styles.detailsContainer}>
             <ImageBackground source={image} style={styles.imageBackground} >
+                
                 <Header navigation={navigation} title={"Product"} />
                 <BackButton />
-                <View style={styles.imageContainer}>
-                    <Image
-                        style={styles.image}
-                        source={{ uri: product.images[1] }}
-                    />
-                </View>
+                <Swiper
+                    style={styles.slide}
+                    showsButtons={true}
+                    loop={false}
+                >
+                    {product.images.map((uri, index) => (
+                        <View key={index} style={styles.slide}>
+                            <Image style={styles.image} source={{ uri }} />
+                        </View>
+                    ))}
+                </Swiper>
                 <Text style={styles.title}>{product.title}</Text>
                 <Text style={styles.textDescription}>{product.description}</Text>
                 <Text style={styles.price}>{`$ ${product.price}`}</Text>
@@ -44,8 +53,10 @@ const Details = ({ route, navigation }) => {
                         <Text style={styles.messageText}>The product has been added to the cart.</Text>
                     </View>
                 )}
+                
             </ImageBackground>
-        </SafeAreaView>
+            </View>
+        </View>
     )
 }
 

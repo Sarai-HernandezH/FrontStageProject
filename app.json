@@ -17,14 +17,16 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "681f0f9f-023c-4f81-8f76-ad4048cddf1f"
+      }
+    },
+    "android": {
+      "package": "com.sara_0594.FrontStageProyect"
     }
   }
 }

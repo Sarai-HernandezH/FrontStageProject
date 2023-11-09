@@ -39,7 +39,6 @@ const Products = ({ navigation }) => {
         ; (async () => {
             try {
                 const session = await fetchSession()
-                //console.log('Esta es la sesion', session)
                 if (session.rows.length) {
                     const user = session.rows._array[0]
                     console.log(session.rows._array[0])
@@ -47,7 +46,6 @@ const Products = ({ navigation }) => {
                     console.log(user)
                 }
             } catch (error) {
-                //console.log('Error en obtener ususario', error.message)
             }
         })()
     }, [])

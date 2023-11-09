@@ -8,7 +8,7 @@ export default styles = StyleSheet.create({
         height: 70,
         width: '100%',
         marginBottom: 20,
-        marginTop: 0,
+        marginTop: 25,
         backgroundColor: colors.red,
         },
     buttonExit:{

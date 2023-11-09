@@ -13,7 +13,6 @@ const Home = ({ navigation }) => {
         <SafeAreaView style={styles.container}>
             <ImageBackground source={image} style={styles.imageBackground} >
                 <Header navigation={navigation} title={'Our Products'} />
-                <BackButton />
                 <View style={styles.listContainer}>
                     {!isLoading && (
                         <FlatList
